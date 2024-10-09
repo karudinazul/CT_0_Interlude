@@ -1,0 +1,2826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>30001</npc> <!-- Lector (Weapon Merchant) -->
+		<npc>30002</npc> <!-- Jackson (Armor Merchant) -->
+		<npc>30003</npc> <!-- Silvia (Accessory Merchant) -->
+		<npc>30135</npc> <!-- Iria (Weapon Merchant) -->
+		<npc>30136</npc> <!-- Payne (Armor Merchant) -->
+		<npc>30138</npc> <!-- Minaless (Accessory Merchant) -->
+		<npc>30147</npc> <!-- Unoren (Weapon Merchant) -->
+		<npc>30148</npc> <!-- Ariel (Armor Merchant) -->
+		<npc>30149</npc> <!-- Creamees (Accessory Merchant) -->
+		<npc>30207</npc> <!-- Arodin (Weapon Merchant) -->
+		<npc>30208</npc> <!-- Damion (Armor Merchant) -->
+		<npc>30253</npc> <!-- Simplon (Armor Merchant) -->
+		<npc>30294</npc> <!-- Varan (Accessory Merchant) -->
+		<npc>30314</npc> <!-- Nestle (Accessory Merchant) -->
+		<npc>30321</npc> <!-- Sydnia (Weapon Merchant) -->
+		<npc>30516</npc> <!-- Reep (Weapon Merchant) -->
+		<npc>30517</npc> <!-- Shari (Armor Merchant) -->
+		<npc>30518</npc> <!-- Garita (Accessory Merchant) -->
+		<npc>30519</npc> <!-- Mion (Grocer) -->
+		<npc>30558</npc> <!-- Jakal (Weapon Merchant) -->
+		<npc>30559</npc> <!-- Kunai (Armor Merchant) -->
+		<npc>30560</npc> <!-- Uska (Accessory Merchant) -->
+		<npc>30060</npc> <!-- Sabrin (Weapon Merchant) -->
+		<npc>30061</npc> <!-- Casey (Armor Merchant) -->
+		<npc>30084</npc> <!-- Graham (Weapon Merchant) -->
+		<npc>30085</npc> <!-- Stanford (Weapon Merchant) -->
+		<npc>30087</npc> <!-- Peta (Armor Merchant) -->
+		<npc>30088</npc> <!-- Radia (Armor Merchant) -->
+	</npcs>
+	<!-- 
+		No Grade Weapons
+	-->
+	<item>
+		<!-- Club -->
+		<ingredient count="1" id="4" />
+		<!-- Adena -->
+		<ingredient count="8032" id="57" />
+		<!-- Heavy Chisel -->
+		<production count="1" id="152" />
+	</item>
+	<item>
+		<!-- Heavy Chisel -->
+		<ingredient count="1" id="152" />
+		<!-- Adena -->
+		<ingredient count="4873" id="57" />
+		<!-- Mace -->
+		<production count="1" id="5" />
+	</item>
+	<item>
+		<!-- Mace -->
+		<ingredient count="1" id="5" />
+		<!-- Adena -->
+		<ingredient count="6600" id="57" />
+		<!-- Sigil -->
+		<production count="1" id="153" />
+	</item>
+	<item>
+		<!-- Sigil -->
+		<ingredient count="1" id="153" />
+		<!-- Adena -->
+		<ingredient count="39160" id="57" />
+		<!-- Dwarven Mace -->
+		<production count="1" id="154" />
+	</item>
+	<item>
+		<!-- Silversmith Hammer -->
+		<ingredient count="1" id="1511" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Dwarven Mace -->
+		<production count="1" id="154" />
+	</item>
+	<item>
+		<!-- Dwarven Mace -->
+		<ingredient count="1" id="154" />
+		<!-- Adena -->
+		<ingredient count="208890" id="57" />
+		<!-- Flanged Mace -->
+		<production count="1" id="155" />
+	</item>
+	<item>
+		<!-- Bone Club -->
+		<ingredient count="1" id="2501" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Flanged Mace -->
+		<production count="1" id="155" />
+	</item>
+	<item>
+		<!-- Short Bow -->
+		<ingredient count="1" id="13" />
+		<!-- Adena -->
+		<ingredient count="12905" id="57" />
+		<!-- Bow -->
+		<production count="1" id="14" />
+	</item>
+	<item>
+		<!-- Bow -->
+		<ingredient count="1" id="14" />
+		<!-- Adena -->
+		<ingredient count="45760" id="57" />
+		<!-- Hunting Bow -->
+		<production count="1" id="271" />
+	</item>
+	<item>
+		<!-- Hunting Bow -->
+		<ingredient count="1" id="271" />
+		<!-- Adena -->
+		<ingredient count="90090" id="57" />
+		<!-- Forest Bow -->
+		<production count="1" id="272" />
+	</item>
+	<item>
+		<!-- Forest Bow -->
+		<ingredient count="1" id="272" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Composite Bow -->
+		<production count="1" id="273" />
+	</item>
+	<item>
+		<!-- Bone Dagger -->
+		<ingredient count="1" id="11" />
+		<!-- Adena -->
+		<ingredient count="12905" id="57" />
+		<!-- Doom Dagger -->
+		<production count="1" id="215" />
+	</item>
+	<item>
+		<!-- Knife -->
+		<ingredient count="1" id="12" />
+		<!-- Adena -->
+		<ingredient count="45760" id="57" />
+		<!-- Dirk -->
+		<production count="1" id="216" />
+	</item>
+	<item>
+		<!-- Doom Dagger -->
+		<ingredient count="1" id="215" />
+		<!-- Adena -->
+		<ingredient count="45760" id="57" />
+		<!-- Dirk -->
+		<production count="1" id="216" />
+	</item>
+	<item>
+		<!-- Eldritch Dagger -->
+		<ingredient count="1" id="989" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Dirk -->
+		<production count="1" id="216" />
+	</item>
+	<item>
+		<!-- Dagger of Adept -->
+		<ingredient count="1" id="2372" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Dirk -->
+		<production count="1" id="216" />
+	</item>
+	<item>
+		<!-- Red Sunset Dagger -->
+		<ingredient count="1" id="2374" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Dirk -->
+		<production count="1" id="216" />
+	</item>
+	<item>
+		<!-- Dirk -->
+		<ingredient count="1" id="216" />
+		<!-- Adena -->
+		<ingredient count="90090" id="57" />
+		<!-- Throwing Knife -->
+		<production count="1" id="218" />
+	</item>
+	<item>
+		<!-- Skeleton Dagger -->
+		<ingredient count="1" id="946" />
+		<!-- Adena -->
+		<ingredient count="76340" id="57" />
+		<!-- Throwing Knife -->
+		<production count="1" id="218" />
+	</item>
+	<item>
+		<!-- Shining Knife -->
+		<ingredient count="1" id="217" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Sword Breaker -->
+		<production count="1" id="219" />
+	</item>
+	<item>
+		<!-- Throwing Knife -->
+		<ingredient count="1" id="218" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Sword Breaker -->
+		<production count="1" id="219" />
+	</item>
+	<item>
+		<!-- Spiked Gloves -->
+		<ingredient count="1" id="253" />
+		<!-- Adena -->
+		<ingredient count="12905" id="57" />
+		<!-- Iron Gloves -->
+		<production count="1" id="254" />
+	</item>
+	<item>
+		<!-- Iron Gloves -->
+		<ingredient count="1" id="254" />
+		<!-- Adena -->
+		<ingredient count="45760" id="57" />
+		<!-- Fox Claw Gloves -->
+		<production count="1" id="255" />
+	</item>
+	<item>
+		<!-- Fist of Butcher -->
+		<ingredient count="1" id="2371" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Fox Claw Gloves -->
+		<production count="1" id="255" />
+	</item>
+	<item>
+		<!-- Fox Claw Gloves -->
+		<ingredient count="1" id="255" />
+		<!-- Adena -->
+		<ingredient count="90090" id="57" />
+		<!-- Cestus -->
+		<production count="1" id="256" />
+	</item>
+	<item>
+		<!-- Cestus -->
+		<ingredient count="1" id="256" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Viper Fang -->
+		<production count="1" id="257" />
+	</item>
+	<item>
+		<!-- Short Spear -->
+		<ingredient count="1" id="15" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Great Spear -->
+		<production count="1" id="16" />
+	</item>
+	<item>
+		<!-- Red Sunset Sword -->
+		<ingredient count="1" id="981" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Brandish -->
+		<production count="1" id="1333" />
+	</item>
+	<item>
+		<!-- Brandish -->
+		<ingredient count="1" id="1333" />
+		<!-- Adena -->
+		<ingredient count="208890" id="57" />
+		<!-- Zweihander -->
+		<production count="1" id="5284" />
+	</item>
+	<item>
+		<!-- Short Sword -->
+		<ingredient count="1" id="1" />
+		<!-- Adena -->
+		<ingredient count="12905" id="57" />
+		<!-- Broadsword -->
+		<production count="1" id="3" />
+	</item>
+	<item>
+		<!-- Broadsword -->
+		<ingredient count="1" id="3" />
+		<!-- Adena -->
+		<ingredient count="45760" id="57" />
+		<!-- Gladius -->
+		<production count="1" id="66" />
+	</item>
+	<item>
+		<!-- Sword of Solidarity -->
+		<ingredient count="1" id="738" />
+		<!-- Adena -->
+		<ingredient count="39160" id="57" />
+		<!-- Gladius -->
+		<production count="1" id="66" />
+	</item>
+	<item>
+		<!-- Butcher's Sword -->
+		<ingredient count="1" id="1510" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Gladius -->
+		<production count="1" id="66" />
+	</item>
+	<item>
+		<!-- Sword of Sentinel -->
+		<ingredient count="1" id="743" />
+		<!-- Adena -->
+		<ingredient count="22550" id="57" />
+		<!-- Gladius -->
+		<production count="1" id="66" />
+	</item>
+	<item>
+		<!-- Blood Saber -->
+		<ingredient count="1" id="975" />
+		<!-- Adena -->
+		<ingredient count="22550" id="57" />
+		<!-- Gladius -->
+		<production count="1" id="66" />
+	</item>
+	<item>
+		<!-- Gladius -->
+		<ingredient count="1" id="66" />
+		<!-- Adena -->
+		<ingredient count="90090" id="57" />
+		<!-- Long Sword -->
+		<production count="1" id="2" />
+	</item>
+	<item>
+		<!-- Orcish Sword -->
+		<ingredient count="1" id="67" />
+		<!-- Adena -->
+		<ingredient count="90090" id="57" />
+		<!-- Long Sword -->
+		<production count="1" id="2" />
+	</item>
+	<item>
+		<!-- Handmade Sword -->
+		<ingredient count="1" id="122" />
+		<!-- Adena -->
+		<ingredient count="90090" id="57" />
+		<!-- Long Sword -->
+		<production count="1" id="2" />
+	</item>
+	<item>
+		<!-- Long Sword -->
+		<ingredient count="1" id="2" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Falchion -->
+		<production count="1" id="68" />
+	</item>
+	<item>
+		<!-- Sword of Reflection -->
+		<ingredient count="1" id="120" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Falchion -->
+		<production count="1" id="68" />
+	</item>
+	<item>
+		<!-- Sword of Watershadow -->
+		<ingredient count="1" id="121" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Falchion -->
+		<production count="1" id="68" />
+	</item>
+	<item>
+		<!-- Apprentice's Rod -->
+		<ingredient count="1" id="7" />
+		<!-- Adena -->
+		<ingredient count="12905" id="57" />
+		<!-- Willow Staff -->
+		<production count="1" id="8" />
+	</item>
+	<item>
+		<!-- Apprentice's Rod -->
+		<ingredient count="1" id="7" />
+		<!-- Adena -->
+		<ingredient count="12905" id="57" />
+		<!-- Apprentice's Spellbook -->
+		<production count="1" id="99" />
+	</item>
+	<item>
+		<!-- Buffalo's Horn -->
+		<ingredient count="1" id="308" />
+		<!-- Adena -->
+		<ingredient count="12905" id="57" />
+		<!-- Willow Staff -->
+		<production count="1" id="8" />
+	</item>
+	<item>
+		<!-- Buffalo's Horn -->
+		<ingredient count="1" id="308" />
+		<!-- Adena -->
+		<ingredient count="12905" id="57" />
+		<!-- Apprentice's Spellbook -->
+		<production count="1" id="99" />
+	</item>
+	<item>
+		<!-- Willow Staff -->
+		<ingredient count="1" id="8" />
+		<!-- Adena -->
+		<ingredient count="45760" id="57" />
+		<!-- Cedar Staff -->
+		<production count="1" id="9" />
+	</item>
+	<item>
+		<!-- Apprentice's Spellbook -->
+		<ingredient count="1" id="99" />
+		<!-- Adena -->
+		<ingredient count="45760" id="57" />
+		<!-- Cedar Staff -->
+		<production count="1" id="9" />
+	</item>
+	<item>
+		<!-- Red Sunset Staff -->
+		<ingredient count="1" id="754" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Cedar Staff -->
+		<production count="1" id="9" />
+	</item>
+	<item>
+		<!-- Eldritch Staff -->
+		<ingredient count="1" id="2373" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Cedar Staff -->
+		<production count="1" id="9" />
+	</item>
+	<item>
+		<!-- Wand of Adept -->
+		<ingredient count="1" id="747" />
+		<!-- Adena -->
+		<ingredient count="31460" id="57" />
+		<!-- Cedar Staff -->
+		<production count="1" id="9" />
+	</item>
+	<item>
+		<!-- Staff of Sentinel -->
+		<ingredient count="1" id="744" />
+		<!-- Adena -->
+		<ingredient count="22550" id="57" />
+		<!-- Cedar Staff -->
+		<production count="1" id="9" />
+	</item>
+	<item>
+		<!-- Cedar Staff -->
+		<ingredient count="1" id="9" />
+		<!-- Adena -->
+		<ingredient count="90090" id="57" />
+		<!-- Apprentice's Staff -->
+		<production count="1" id="176" />
+	</item>
+	<item>
+		<!-- Cedar Staff -->
+		<ingredient count="1" id="9" />
+		<!-- Adena -->
+		<ingredient count="90090" id="57" />
+		<!-- Relic of the Saints -->
+		<production count="1" id="310" />
+	</item>
+	<item>
+		<!-- Apprentice's Staff -->
+		<ingredient count="1" id="176" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Mage Staff -->
+		<production count="1" id="177" />
+	</item>
+	<item>
+		<!-- Apprentice's Staff -->
+		<ingredient count="1" id="176" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Crucifix of Blessing -->
+		<production count="1" id="311" />
+	</item>
+	<item>
+		<!-- Tears of Eva -->
+		<ingredient count="1" id="309" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Mage Staff -->
+		<production count="1" id="177" />
+	</item>
+	<item>
+		<!-- Tears of Eva -->
+		<ingredient count="1" id="309" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Crucifix of Blessing -->
+		<production count="1" id="311" />
+	</item>
+	<item>
+		<!-- Relic of the Saints -->
+		<ingredient count="1" id="310" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Mage Staff -->
+		<production count="1" id="177" />
+	</item>
+	<item>
+		<!-- Relic of the Saints -->
+		<ingredient count="1" id="310" />
+		<!-- Adena -->
+		<ingredient count="118800" id="57" />
+		<!-- Crucifix of Blessing -->
+		<production count="1" id="311" />
+	</item>
+	<!-- 
+		No Grade Armors
+	-->
+	<item>
+		<!-- Shirt -->
+		<ingredient count="1" id="21" />
+		<!-- Adena -->
+		<ingredient count="2511" id="57" />
+		<!-- Leather Shirt -->
+		<production count="1" id="22" />
+	</item>
+	<item>
+		<!-- Leather Shirt -->
+		<ingredient count="1" id="22" />
+		<!-- Adena -->
+		<ingredient count="6083" id="57" />
+		<!-- Wooden Breastplate -->
+		<production count="1" id="23" />
+	</item>
+	<item>
+		<!-- Wooden Breastplate -->
+		<ingredient count="1" id="23" />
+		<!-- Adena -->
+		<ingredient count="13574" id="57" />
+		<!-- Bone Breastplate -->
+		<production count="1" id="24" />
+	</item>
+	<item>
+		<!-- Bone Breastplate -->
+		<ingredient count="1" id="24" />
+		<!-- Adena -->
+		<ingredient count="12650" id="57" />
+		<!-- Piece Bone Breastplate -->
+		<production count="1" id="25" />
+	</item>
+	<item>
+		<!-- Bone Breastplate -->
+		<ingredient count="1" id="24" />
+		<!-- Adena -->
+		<ingredient count="18260" id="57" />
+		<!-- Hard Leather Shirt -->
+		<production count="1" id="27" />
+	</item>
+	<item>
+		<!-- Cotton Shirt -->
+		<ingredient count="1" id="390" />
+		<!-- Adena -->
+		<ingredient count="12650" id="57" />
+		<!-- Piece Bone Breastplate -->
+		<production count="1" id="25" />
+	</item>
+	<item>
+		<!-- Cotton Shirt -->
+		<ingredient count="1" id="390" />
+		<!-- Adena -->
+		<ingredient count="18260" id="57" />
+		<!-- Hard Leather Shirt -->
+		<production count="1" id="27" />
+	</item>
+	<item>
+		<!-- Piece Bone Breastplate -->
+		<ingredient count="1" id="25" />
+		<!-- Adena -->
+		<ingredient count="5610" id="57" />
+		<!-- Hard Leather Shirt -->
+		<production count="1" id="27" />
+	</item>
+	<item>
+		<!-- Piece Bone Breastplate -->
+		<ingredient count="1" id="25" />
+		<!-- Adena -->
+		<ingredient count="19140" id="57" />
+		<!-- Bronze Breastplate -->
+		<production count="1" id="26" />
+	</item>
+	<item>
+		<!-- Hard Leather Shirt -->
+		<ingredient count="1" id="27" />
+		<!-- Adena -->
+		<ingredient count="13530" id="57" />
+		<!-- Bronze Breastplate -->
+		<production count="1" id="26" />
+	</item>
+	<item>
+		<!-- Tunic -->
+		<ingredient count="1" id="426" />
+		<!-- Adena -->
+		<ingredient count="2511" id="57" />
+		<!-- Feriotic Tunic -->
+		<production count="1" id="428" />
+	</item>
+	<item>
+		<!-- Feriotic Tunic -->
+		<ingredient count="1" id="428" />
+		<!-- Adena -->
+		<ingredient count="6083" id="57" />
+		<!-- Leather Tunic -->
+		<production count="1" id="429" />
+	</item>
+	<item>
+		<!-- Cotton Tunic -->
+		<ingredient count="1" id="1100" />
+		<!-- Adena -->
+		<ingredient count="6083" id="57" />
+		<!-- Leather Tunic -->
+		<production count="1" id="429" />
+	</item>
+	<item>
+		<!-- Leather Tunic -->
+		<ingredient count="1" id="429" />
+		<!-- Adena -->
+		<ingredient count="13574" id="57" />
+		<!-- Tunic of Devotion -->
+		<production count="1" id="1101" />
+	</item>
+	<item>
+		<!-- Tunic of Devotion -->
+		<ingredient count="1" id="1101" />
+		<!-- Adena -->
+		<ingredient count="18260" id="57" />
+		<!-- Tunic of Magic -->
+		<production count="1" id="1102" />
+	</item>
+	<item>
+		<!-- Apprentice's Shoes -->
+		<ingredient count="1" id="1121" />
+		<!-- Adena -->
+		<ingredient count="33" id="57" />
+		<!-- Cloth Shoes -->
+		<production count="1" id="35" />
+	</item>
+	<item>
+		<!-- Cloth Shoes -->
+		<ingredient count="1" id="35" />
+		<!-- Adena -->
+		<ingredient count="627" id="57" />
+		<!-- Cotton Shoes -->
+		<production count="1" id="1122" />
+	</item>
+	<item>
+		<!-- Leather Sandals -->
+		<ingredient count="1" id="36" />
+		<!-- Adena -->
+		<ingredient count="627" id="57" />
+		<!-- Cotton Shoes -->
+		<production count="1" id="1122" />
+	</item>
+	<item>
+		<!-- Cotton Shoes -->
+		<ingredient count="1" id="1122" />
+		<!-- Adena -->
+		<ingredient count="2247" id="57" />
+		<!-- Leather Shoes -->
+		<production count="1" id="37" />
+	</item>
+	<item>
+		<!-- Crude Leather Shoes -->
+		<ingredient count="1" id="1129" />
+		<!-- Adena -->
+		<ingredient count="2247" id="57" />
+		<!-- Leather Shoes -->
+		<production count="1" id="37" />
+	</item>
+	<item>
+		<!-- Leather Shoes -->
+		<ingredient count="1" id="37" />
+		<!-- Adena -->
+		<ingredient count="4532" id="57" />
+		<!-- Low Boots -->
+		<production count="1" id="38" />
+	</item>
+	<item>
+		<!-- Low Boots -->
+		<ingredient count="1" id="38" />
+		<!-- Adena -->
+		<ingredient count="6083" id="57" />
+		<!-- Boots -->
+		<production count="1" id="39" />
+	</item>
+	<item>
+		<!-- Short Gloves -->
+		<ingredient count="1" id="48" />
+		<!-- Adena -->
+		<ingredient count="627" id="57" />
+		<!-- Short Leather Gloves -->
+		<production count="1" id="1119" />
+	</item>
+	<item>
+		<!-- Short Leather Gloves -->
+		<ingredient count="1" id="1119" />
+		<!-- Adena -->
+		<ingredient count="2247" id="57" />
+		<!-- Gloves -->
+		<production count="1" id="49" />
+	</item>
+	<item>
+		<!-- Gloves -->
+		<ingredient count="1" id="49" />
+		<!-- Adena -->
+		<ingredient count="4532" id="57" />
+		<!-- Leather Gloves -->
+		<production count="1" id="50" />
+	</item>
+	<item>
+		<!-- Leather Gloves -->
+		<ingredient count="1" id="50" />
+		<!-- Adena -->
+		<ingredient count="6083" id="57" />
+		<!-- Bracer -->
+		<production count="1" id="51" />
+	</item>
+	<item>
+		<!-- Cloth Cap -->
+		<ingredient count="1" id="41" />
+		<!-- Adena -->
+		<ingredient count="941" id="57" />
+		<!-- Leather Cap -->
+		<production count="1" id="42" />
+	</item>
+	<item>
+		<!-- Leather Cap -->
+		<ingredient count="1" id="42" />
+		<!-- Adena -->
+		<ingredient count="3375" id="57" />
+		<!-- Wooden Helmet -->
+		<production count="1" id="43" />
+	</item>
+	<item>
+		<!-- Wooden Helmet -->
+		<ingredient count="1" id="43" />
+		<!-- Adena -->
+		<ingredient count="6842" id="57" />
+		<!-- Leather Helmet -->
+		<production count="1" id="44" />
+	</item>
+	<item>
+		<!-- Leather Helmet -->
+		<ingredient count="1" id="44" />
+		<!-- Adena -->
+		<ingredient count="9020" id="57" />
+		<!-- Hard Leather Helmet -->
+		<production count="1" id="1148" />
+	</item>
+	<item>
+		<!-- Pants -->
+		<ingredient count="1" id="28" />
+		<!-- Adena -->
+		<ingredient count="1570" id="57" />
+		<!-- Leather Pants -->
+		<production count="1" id="29" />
+	</item>
+	<item>
+		<!-- Leather Pants -->
+		<ingredient count="1" id="29" />
+		<!-- Adena -->
+		<ingredient count="3795" id="57" />
+		<!-- Wooden Gaiters -->
+		<production count="1" id="2386" />
+	</item>
+	<item>
+		<!-- Hard Leather Pants -->
+		<ingredient count="1" id="30" />
+		<!-- Adena -->
+		<ingredient count="8503" id="57" />
+		<!-- Bone Gaiters -->
+		<production count="1" id="31" />
+	</item>
+	<item>
+		<!-- Wooden Gaiters -->
+		<ingredient count="1" id="2386" />
+		<!-- Adena -->
+		<ingredient count="8503" id="57" />
+		<!-- Bone Gaiters -->
+		<production count="1" id="31" />
+	</item>
+	<item>
+		<!-- Bone Gaiters -->
+		<ingredient count="1" id="31" />
+		<!-- Adena -->
+		<ingredient count="7920" id="57" />
+		<!-- Piece Bone Gaiters -->
+		<production count="1" id="32" />
+	</item>
+	<item>
+		<!-- Bone Gaiters -->
+		<ingredient count="1" id="31" />
+		<!-- Adena -->
+		<ingredient count="11330" id="57" />
+		<!-- Hard Leather Gaiters -->
+		<production count="1" id="33" />
+	</item>
+	<item>
+		<!-- Cotton Pants -->
+		<ingredient count="1" id="412" />
+		<!-- Adena -->
+		<ingredient count="7920" id="57" />
+		<!-- Piece Bone Gaiters -->
+		<production count="1" id="32" />
+	</item>
+	<item>
+		<!-- Cotton Pants -->
+		<ingredient count="1" id="412" />
+		<!-- Adena -->
+		<ingredient count="11330" id="57" />
+		<!-- Hard Leather Gaiters -->
+		<production count="1" id="33" />
+	</item>
+	<item>
+		<!-- Piece Bone Gaiters -->
+		<ingredient count="1" id="32" />
+		<!-- Adena -->
+		<ingredient count="3410" id="57" />
+		<!-- Hard Leather Gaiters -->
+		<production count="1" id="33" />
+	</item>
+	<item>
+		<!-- Piece Bone Gaiters -->
+		<ingredient count="1" id="32" />
+		<!-- Adena -->
+		<ingredient count="11880" id="57" />
+		<!-- Bronze Gaiters -->
+		<production count="1" id="34" />
+	</item>
+	<item>
+		<!-- Hard Leather Gaiters -->
+		<ingredient count="1" id="33" />
+		<!-- Adena -->
+		<ingredient count="8470" id="57" />
+		<!-- Bronze Gaiters -->
+		<production count="1" id="34" />
+	</item>
+	<item>
+		<!-- Stockings -->
+		<ingredient count="1" id="462" />
+		<!-- Adena -->
+		<ingredient count="1570" id="57" />
+		<!-- Feriotic Stockings -->
+		<production count="1" id="463" />
+	</item>
+	<item>
+		<!-- Feriotic Stockings -->
+		<ingredient count="1" id="463" />
+		<!-- Adena -->
+		<ingredient count="3795" id="57" />
+		<!-- Leather Stockings -->
+		<production count="1" id="464" />
+	</item>
+	<item>
+		<!-- Cotton Stockings -->
+		<ingredient count="1" id="1103" />
+		<!-- Adena -->
+		<ingredient count="3795" id="57" />
+		<!-- Leather Stockings -->
+		<production count="1" id="464" />
+	</item>
+	<item>
+		<!-- Leather Stockings -->
+		<ingredient count="1" id="464" />
+		<!-- Adena -->
+		<ingredient count="8503" id="57" />
+		<!-- Stockings of Devotion -->
+		<production count="1" id="1104" />
+	</item>
+	<item>
+		<!-- Stockings of Devotion -->
+		<ingredient count="1" id="1104" />
+		<!-- Adena -->
+		<ingredient count="11330" id="57" />
+		<!-- Stockings of Magic -->
+		<production count="1" id="1105" />
+	</item>
+	<item>
+		<!-- Leather Shield -->
+		<ingredient count="1" id="18" />
+		<!-- Adena -->
+		<ingredient count="658" id="57" />
+		<!-- Small Shield -->
+		<production count="1" id="19" />
+	</item>
+	<item>
+		<!-- Small Shield -->
+		<ingredient count="1" id="19" />
+		<!-- Adena -->
+		<ingredient count="2356" id="57" />
+		<!-- Buckler -->
+		<production count="1" id="20" />
+	</item>
+	<item>
+		<!-- Buckler -->
+		<ingredient count="1" id="20" />
+		<!-- Adena -->
+		<ingredient count="4763" id="57" />
+		<!-- Round Shield -->
+		<production count="1" id="102" />
+	</item>
+	<item>
+		<!-- Skeleton Buckler -->
+		<ingredient count="1" id="945" />
+		<!-- Adena -->
+		<ingredient count="4037" id="57" />
+		<!-- Round Shield -->
+		<production count="1" id="102" />
+	</item>
+	<item>
+		<!-- Round Shield -->
+		<ingredient count="1" id="102" />
+		<!-- Adena -->
+		<ingredient count="6369" id="57" />
+		<!-- Bone Shield -->
+		<production count="1" id="625" />
+	</item>
+	<!-- 
+		No Grade Jewelry
+	-->
+	<item>
+		<!-- Necklace of Magic -->
+		<ingredient count="1" id="118" />
+		<!-- Adena -->
+		<ingredient count="1115" id="57" />
+		<!-- Necklace of Knowledge -->
+		<production count="1" id="906" />
+	</item>
+	<item>
+		<!-- Necklace of Courage -->
+		<ingredient count="1" id="1506" />
+		<!-- Adena -->
+		<ingredient count="1115" id="57" />
+		<!-- Necklace of Knowledge -->
+		<production count="1" id="906" />
+	</item>
+	<item>
+		<!-- Necklace of Knowledge -->
+		<ingredient count="1" id="906" />
+		<!-- Adena -->
+		<ingredient count="3960" id="57" />
+		<!-- Necklace of Anguish -->
+		<production count="1" id="907" />
+	</item>
+	<item>
+		<!-- Necklace of Anguish -->
+		<ingredient count="1" id="907" />
+		<!-- Adena -->
+		<ingredient count="7942" id="57" />
+		<!-- Necklace of Wisdom -->
+		<production count="1" id="908" />
+	</item>
+	<item>
+		<!-- Necklace of Valor -->
+		<ingredient count="1" id="1507" />
+		<!-- Adena -->
+		<ingredient count="7942" id="57" />
+		<!-- Necklace of Wisdom -->
+		<production count="1" id="908" />
+	</item>
+	<item>
+		<!-- Necklace of Wisdom -->
+		<ingredient count="1" id="908" />
+		<!-- Adena -->
+		<ingredient count="10340" id="57" />
+		<!-- Blue Diamond Necklace -->
+		<production count="1" id="909" />
+	</item>
+	<item>
+		<!-- Apprentice's Earring -->
+		<ingredient count="1" id="112" />
+		<!-- Adena -->
+		<ingredient count="838" id="57" />
+		<!-- Mystic's Earring -->
+		<production count="1" id="113" />
+	</item>
+	<item>
+		<!-- Mystic's Earring -->
+		<ingredient count="1" id="113" />
+		<!-- Adena -->
+		<ingredient count="2968" id="57" />
+		<!-- Earring of Wisdom -->
+		<production count="1" id="115" />
+	</item>
+	<item>
+		<!-- Earring of Strength -->
+		<ingredient count="1" id="114" />
+		<!-- Adena -->
+		<ingredient count="5918" id="57" />
+		<!-- Cat's Eye Earring -->
+		<production count="1" id="845" />
+	</item>
+	<item>
+		<!-- Earring of Wisdom -->
+		<ingredient count="1" id="115" />
+		<!-- Adena -->
+		<ingredient count="5918" id="57" />
+		<!-- Cat's Eye Earring -->
+		<production count="1" id="845" />
+	</item>
+	<item>
+		<!-- Cat's Eye Earring -->
+		<ingredient count="1" id="845" />
+		<!-- Adena -->
+		<ingredient count="7821" id="57" />
+		<!-- Coral Earring -->
+		<production count="1" id="846" />
+	</item>
+	<item>
+		<!-- Magic Ring -->
+		<ingredient count="1" id="116" />
+		<!-- Adena -->
+		<ingredient count="557" id="57" />
+		<!-- Ring of Knowledge -->
+		<production count="1" id="875" />
+	</item>
+	<item>
+		<!-- Ring of Knowledge -->
+		<ingredient count="1" id="875" />
+		<!-- Adena -->
+		<ingredient count="1980" id="57" />
+		<!-- Ring of Anguish -->
+		<production count="1" id="876" />
+	</item>
+	<item>
+		<!-- Ring of Anguish -->
+		<ingredient count="1" id="876" />
+		<!-- Adena -->
+		<ingredient count="3938" id="57" />
+		<!-- Ring of Wisdom -->
+		<production count="1" id="877" />
+	</item>
+	<item>
+		<!-- Ring of Raccoon -->
+		<ingredient count="1" id="1508" />
+		<!-- Adena -->
+		<ingredient count="3938" id="57" />
+		<!-- Ring of Wisdom -->
+		<production count="1" id="877" />
+	</item>
+	<item>
+		<!-- Ring of Firefly -->
+		<ingredient count="1" id="1509" />
+		<!-- Adena -->
+		<ingredient count="3938" id="57" />
+		<!-- Ring of Wisdom -->
+		<production count="1" id="877" />
+	</item>
+	<item>
+		<!-- Ring of Wisdom -->
+		<ingredient count="1" id="877" />
+		<!-- Adena -->
+		<ingredient count="5258" id="57" />
+		<!-- Blue Coral Ring -->
+		<production count="1" id="878" />
+	</item>
+	<!-- 
+		D-Grade Weapons
+	-->
+	<item>
+		<!-- Falchion -->
+		<ingredient count="1" id="68" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Saber -->
+		<production count="1" id="123" />
+	</item>
+	<item>
+		<!-- Saber -->
+		<ingredient count="1" id="123" />
+		<!-- Adena -->
+		<ingredient count="235000" id="57" />
+		<!-- Bastard Sword -->
+		<production count="1" id="69" />
+	</item>
+	<item>
+		<!-- Bastard Sword -->
+		<ingredient count="1" id="69" />
+		<!-- Adena -->
+		<ingredient count="323000" id="57" />
+		<!-- Elven Sword -->
+		<production count="1" id="130" />
+	</item>
+	<item>
+		<!-- Elven Sword -->
+		<ingredient count="1" id="130" />
+		<!-- Adena -->
+		<ingredient count="433000" id="57" />
+		<!-- Sword of Revolution -->
+		<production count="1" id="129" />
+	</item>
+	<item>
+		<!-- Sword of Revolution -->
+		<ingredient count="1" id="129" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Elven Long Sword -->
+		<production count="1" id="2499" />
+	</item>
+	<item>
+		<!-- Zweihander -->
+		<ingredient count="1" id="5284" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Heavy Sword -->
+		<production count="1" id="5285" />
+	</item>
+	<item>
+		<!-- Heavy Sword -->
+		<ingredient count="1" id="5285" />
+		<!-- Adena -->
+		<ingredient count="323000" id="57" />
+		<!-- Two-Handed Sword -->
+		<production count="1" id="124" />
+	</item>
+	<item>
+		<!-- Two-Handed Sword -->
+		<ingredient count="1" id="124" />
+		<!-- Adena -->
+		<ingredient count="433000" id="57" />
+		<!-- Titan Sword -->
+		<production count="1" id="7881" />
+	</item>
+	<item>
+		<!-- Titan Sword -->
+		<ingredient count="1" id="7881" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Claymore -->
+		<production count="1" id="70" />
+	</item>
+	<item>
+		<!-- Buzdygan -->
+		<ingredient count="1" id="155" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Work Hammer -->
+		<production count="1" id="168" />
+	</item>
+	<item>
+		<!-- Work Hammer -->
+		<ingredient count="1" id="168" />
+		<!-- Adena -->
+		<ingredient count="235000" id="57" />
+		<!-- Tomahawk -->
+		<production count="1" id="86" />
+	</item>
+	<item>
+		<!-- Tomahawk -->
+		<ingredient count="1" id="86" />
+		<!-- Adena -->
+		<ingredient count="323000" id="57" />
+		<!-- Spiked Club -->
+		<production count="1" id="157" />
+	</item>
+	<item>
+		<!-- Spiked Club -->
+		<ingredient count="1" id="157" />
+		<!-- Adena -->
+		<ingredient count="433000" id="57" />
+		<!-- Tarbar -->
+		<production count="1" id="158" />
+	</item>
+	<item>
+		<!-- Tarbar -->
+		<ingredient count="1" id="158" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Bonebreaker -->
+		<production count="1" id="159" />
+	</item>
+	<item>
+		<!-- Mage Staff -->
+		<ingredient count="1" id="177" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Bone Staff -->
+		<production count="1" id="178" />
+	</item>
+	<item>
+		<!-- Crucifix of Blessing -->
+		<ingredient count="1" id="311" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Bone Staff -->
+		<production count="1" id="178" />
+	</item>
+	<item>
+		<!-- Bone Staff -->
+		<ingredient count="1" id="178" />
+		<!-- Adena -->
+		<ingredient count="235000" id="57" />
+		<!-- Mystic Staff -->
+		<production count="1" id="183" />
+	</item>
+	<item>
+		<!-- Mystic Staff -->
+		<ingredient count="1" id="183" />
+		<!-- Adena -->
+		<ingredient count="323000" id="57" />
+		<!-- Staff of Magic -->
+		<production count="1" id="186" />
+	</item>
+	<item>
+		<!-- Staff of Magic -->
+		<ingredient count="1" id="186" />
+		<!-- Adena -->
+		<ingredient count="433000" id="57" />
+		<!-- Goat Head Staff -->
+		<production count="1" id="90" />
+	</item>
+	<item>
+		<!-- Goat Head Staff -->
+		<ingredient count="1" id="90" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Staff of Life -->
+		<production count="1" id="189" />
+	</item>
+	<item>
+		<!-- Sword Breaker -->
+		<ingredient count="1" id="219" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Crafted Dagger -->
+		<production count="1" id="220" />
+	</item>
+	<item>
+		<!-- Crafted Dagger -->
+		<ingredient count="1" id="220" />
+		<!-- Adena -->
+		<ingredient count="235000" id="57" />
+		<!-- Poniard Dagger -->
+		<production count="1" id="222" />
+	</item>
+	<item>
+		<!-- Poniard Dagger -->
+		<ingredient count="1" id="222" />
+		<!-- Adena -->
+		<ingredient count="323000" id="57" />
+		<!-- Kukuri -->
+		<production count="1" id="223" />
+	</item>
+	<item>
+		<!-- Kukuri -->
+		<ingredient count="1" id="223" />
+		<!-- Adena -->
+		<ingredient count="433000" id="57" />
+		<!-- Maingauche -->
+		<production count="1" id="224" />
+	</item>
+	<item>
+		<!-- Maingauche -->
+		<ingredient count="1" id="224" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Mithril Dagger -->
+		<production count="1" id="225" />
+	</item>
+	<item>
+		<!-- Composition Bow -->
+		<ingredient count="1" id="273" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Strengthened Bow -->
+		<production count="1" id="274" />
+	</item>
+	<item>
+		<!-- Strengthened Bow -->
+		<ingredient count="1" id="274" />
+		<!-- Adena -->
+		<ingredient count="235000" id="57" />
+		<!-- Elven Bow -->
+		<production count="1" id="276" />
+	</item>
+	<item>
+		<!-- Elven Bow -->
+		<ingredient count="1" id="276" />
+		<!-- Adena -->
+		<ingredient count="323000" id="57" />
+		<!-- Gastraphetes -->
+		<production count="1" id="278" />
+	</item>
+	<item>
+		<!-- Gastraphetes -->
+		<ingredient count="1" id="278" />
+		<!-- Adena -->
+		<ingredient count="433000" id="57" />
+		<!-- Strengthened Long Bow -->
+		<production count="1" id="279" />
+	</item>
+	<item>
+		<!-- Strengthened Long Bow -->
+		<ingredient count="1" id="279" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Light Crossbow -->
+		<production count="1" id="280" />
+	</item>
+	<item>
+		<!-- Long Spear -->
+		<ingredient count="1" id="16" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Trident -->
+		<production count="1" id="291" />
+	</item>
+	<item>
+		<!-- Trident -->
+		<ingredient count="1" id="291" />
+		<!-- Adena -->
+		<ingredient count="235000" id="57" />
+		<!-- Pike -->
+		<production count="1" id="292" />
+	</item>
+	<item>
+		<!-- Pike -->
+		<ingredient count="1" id="292" />
+		<!-- Adena -->
+		<ingredient count="323000" id="57" />
+		<!-- War Hammer -->
+		<production count="1" id="293" />
+	</item>
+	<item>
+		<!-- War Hammer -->
+		<ingredient count="1" id="293" />
+		<!-- Adena -->
+		<ingredient count="433000" id="57" />
+		<!-- Winged Spear -->
+		<production count="1" id="93" />
+	</item>
+	<item>
+		<!-- Winged Spear -->
+		<ingredient count="1" id="93" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Glaive -->
+		<production count="1" id="297" />
+	</item>
+	<item>
+		<!-- Viper's Fang -->
+		<ingredient count="1" id="257" />
+		<!-- Adena -->
+		<ingredient count="165000" id="57" />
+		<!-- Bagh-Nakh -->
+		<production count="1" id="258" />
+	</item>
+	<item>
+		<!-- Bagh-Nakh -->
+		<ingredient count="1" id="258" />
+		<!-- Adena -->
+		<ingredient count="235000" id="57" />
+		<!-- Single-Edged Jamadhr -->
+		<production count="1" id="259" />
+	</item>
+	<item>
+		<!-- Single-Edged Jamadhr -->
+		<ingredient count="1" id="259" />
+		<!-- Adena -->
+		<ingredient count="323000" id="57" />
+		<!-- Triple-Edged Jamadhr -->
+		<production count="1" id="260" />
+	</item>
+	<item>
+		<!-- Triple-Edged Jamadhr -->
+		<ingredient count="1" id="260" />
+		<!-- Adena -->
+		<ingredient count="433000" id="57" />
+		<!-- Bich'Hwa -->
+		<production count="1" id="261" />
+	</item>
+	<item>
+		<!-- Bich'Hwa -->
+		<ingredient count="1" id="261" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Scallop Jamadhr -->
+		<production count="1" id="262" />
+	</item>
+	<!-- 
+		D-Grade Armors
+	-->
+	<item>
+		<!-- Tunic of Magic -->
+		<ingredient count="1" id="1102" />
+		<!-- Adena -->
+		<ingredient count="25700" id="57" />
+		<!-- Cursed Tunic -->
+		<production count="1" id="432" />
+	</item>
+	<item>
+		<!-- Stockings of Magic -->
+		<ingredient count="1" id="1105" />
+		<!-- Adena -->
+		<ingredient count="16100" id="57" />
+		<!-- Cursed Stockings -->
+		<production count="1" id="465" />
+	</item>
+	<item>
+		<!-- Cursed Tunic -->
+		<ingredient count="1" id="432" />
+		<!-- Adena -->
+		<ingredient count="25700" id="57" />
+		<!-- Elven Tunic -->
+		<production count="1" id="433" />
+	</item>
+	<item>
+		<!-- Cursed Stockings -->
+		<ingredient count="1" id="465" />
+		<!-- Adena -->
+		<ingredient count="23400" id="57" />
+		<!-- Elven Stockings -->
+		<production count="1" id="466" />
+	</item>
+	<item>
+		<!-- Elven Tunic -->
+		<ingredient count="1" id="433" />
+		<!-- Adena -->
+		<ingredient count="52100" id="57" />
+		<!-- Tunic of Knowledge -->
+		<production count="1" id="436" />
+	</item>
+	<item>
+		<!-- Elven Stockings -->
+		<ingredient count="1" id="466" />
+		<!-- Adena -->
+		<ingredient count="32700" id="57" />
+		<!-- Stockings of Knowledge -->
+		<production count="1" id="469" />
+	</item>
+	<item>
+		<!-- Tunic of Knowledge -->
+		<ingredient count="1" id="436" />
+		<!-- Adena -->
+		<ingredient count="72000" id="57" />
+		<!-- Mithril Tunic -->
+		<production count="1" id="437" />
+	</item>
+	<item>
+		<!-- Stockings of Knowledge -->
+		<ingredient count="1" id="469" />
+		<!-- Adena -->
+		<ingredient count="44800" id="57" />
+		<!-- Mithril Stockings -->
+		<production count="1" id="470" />
+	</item>
+	<item>
+		<!-- Hard Leather Shirt -->
+		<ingredient count="1" id="27" />
+		<!-- Adena -->
+		<ingredient count="25700" id="57" />
+		<!-- Puma Skin Shirt -->
+		<production count="1" id="391" />
+	</item>
+	<item>
+		<!-- Hard Leather Gaiters -->
+		<ingredient count="1" id="33" />
+		<!-- Adena -->
+		<ingredient count="16100" id="57" />
+		<!-- Puma Skin Gaiters -->
+		<production count="1" id="413" />
+	</item>
+	<item>
+		<!-- Puma Skin Shirt -->
+		<ingredient count="1" id="391" />
+		<!-- Adena -->
+		<ingredient count="25700" id="57" />
+		<!-- Lion Skin Shirt -->
+		<production count="1" id="392" />
+	</item>
+	<item>
+		<!-- Puma Skin Gaiters -->
+		<ingredient count="1" id="413" />
+		<!-- Adena -->
+		<ingredient count="23400" id="57" />
+		<!-- Lion Skin Gaiters -->
+		<production count="1" id="414" />
+	</item>
+	<item>
+		<!-- Lion Skin Shirt -->
+		<ingredient count="1" id="392" />
+		<!-- Adena -->
+		<ingredient count="52100" id="57" />
+		<!-- Mithril Banded Mail -->
+		<production count="1" id="393" />
+	</item>
+	<item>
+		<!-- Lion Skin Gaiters -->
+		<ingredient count="1" id="414" />
+		<!-- Adena -->
+		<ingredient count="32700" id="57" />
+		<!-- Mithril Banded Gaiters -->
+		<production count="1" id="415" />
+	</item>
+	<item>
+		<!-- Mithril Banded Mail -->
+		<ingredient count="1" id="393" />
+		<!-- Adena -->
+		<ingredient count="72000" id="57" />
+		<!-- Manticore Skin Shirt -->
+		<production count="1" id="395" />
+	</item>
+	<item>
+		<!-- Mithril Banded Gaiters -->
+		<ingredient count="1" id="415" />
+		<!-- Adena -->
+		<ingredient count="44800" id="57" />
+		<!-- Manticore Skin Gaiters -->
+		<production count="1" id="417" />
+	</item>
+	<item>
+		<!-- Bronze Breastplate -->
+		<ingredient count="1" id="26" />
+		<!-- Adena -->
+		<ingredient count="25700" id="57" />
+		<!-- Ring Mail Breastplate -->
+		<production count="1" id="347" />
+	</item>
+	<item>
+		<!-- Bronze Gaiters -->
+		<ingredient count="1" id="34" />
+		<!-- Adena -->
+		<ingredient count="16100" id="57" />
+		<!-- Iron Plate Gaiters -->
+		<production count="1" id="376" />
+	</item>
+	<item>
+		<!-- Ring Mail Breastplate -->
+		<ingredient count="1" id="347" />
+		<!-- Adena -->
+		<ingredient count="25700" id="57" />
+		<!-- Scale Mail -->
+		<production count="1" id="348" />
+	</item>
+	<item>
+		<!-- Iron Plate Gaiters -->
+		<ingredient count="1" id="376" />
+		<!-- Adena -->
+		<ingredient count="23400" id="57" />
+		<!-- Scale Gaiters -->
+		<production count="1" id="377" />
+	</item>
+	<item>
+		<!-- Scale Mail -->
+		<ingredient count="1" id="348" />
+		<!-- Adena -->
+		<ingredient count="52100" id="57" />
+		<!-- Mithril Breastplate -->
+		<production count="1" id="58" />
+	</item>
+	<item>
+		<!-- Scale Gaiters -->
+		<ingredient count="1" id="377" />
+		<!-- Adena -->
+		<ingredient count="32700" id="57" />
+		<!-- Mithril Gaiters -->
+		<production count="1" id="59" />
+	</item>
+	<item>
+		<!-- Mithril Breastplate -->
+		<ingredient count="1" id="58" />
+		<!-- Adena -->
+		<ingredient count="72000" id="57" />
+		<!-- Brigandine Tunic -->
+		<production count="1" id="352" />
+	</item>
+	<item>
+		<!-- Mithril Gaiters -->
+		<ingredient count="1" id="59" />
+		<!-- Adena -->
+		<ingredient count="44800" id="57" />
+		<!-- Brigandine Gaiters -->
+		<production count="1" id="2378" />
+	</item>
+	<item>
+		<!-- Bracer -->
+		<ingredient count="1" id="51" />
+		<!-- Adena -->
+		<ingredient count="8600" id="57" />
+		<!-- Crafted Leather Gloves -->
+		<production count="1" id="604" />
+	</item>
+	<item>
+		<!-- Crafted Leather Gloves -->
+		<ingredient count="1" id="604" />
+		<!-- Adena -->
+		<ingredient count="12400" id="57" />
+		<!-- Leather Gauntlets -->
+		<production count="1" id="605" />
+	</item>
+	<item>
+		<!-- Leather Gauntlets -->
+		<ingredient count="1" id="605" />
+		<!-- Adena -->
+		<ingredient count="17500" id="57" />
+		<!-- Gloves of Knowledge -->
+		<production count="1" id="2447" />
+	</item>
+	<item>
+		<!-- Gloves of Knowledge -->
+		<ingredient count="1" id="2447" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Rip Gauntlets -->
+		<production count="1" id="606" />
+	</item>
+	<item>
+		<!-- Gloves of Knowledge -->
+		<ingredient count="1" id="2447" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Elven Mithril Gloves -->
+		<production count="1" id="2450" />
+	</item>
+	<item>
+		<!-- Gloves of Knowledge -->
+		<ingredient count="1" id="2447" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Manticore Skin Gloves -->
+		<production count="1" id="2448" />
+	</item>
+	<item>
+		<!-- Gloves of Knowledge -->
+		<ingredient count="1" id="2447" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Brigandine Gauntlets -->
+		<production count="1" id="2449" />
+	</item>
+	<item>
+		<!-- Rip Gauntlets -->
+		<ingredient count="1" id="606" />
+		<!-- Adena -->
+		<ingredient count="28000" id="57" />
+		<!-- Mithril Gloves -->
+		<production count="1" id="61" />
+	</item>
+	<item>
+		<!-- Elven Mithril Gloves -->
+		<ingredient count="1" id="2450" />
+		<!-- Adena -->
+		<ingredient count="28000" id="57" />
+		<!-- Mithril Gloves -->
+		<production count="1" id="61" />
+	</item>
+	<item>
+		<!-- Manticore Skin Gloves -->
+		<ingredient count="1" id="2448" />
+		<!-- Adena -->
+		<ingredient count="28000" id="57" />
+		<!-- Mithril Gloves -->
+		<production count="1" id="61" />
+	</item>
+	<item>
+		<!-- Brigandine Gauntlets -->
+		<ingredient count="1" id="2449" />
+		<!-- Adena -->
+		<ingredient count="28000" id="57" />
+		<!-- Mithril Gloves -->
+		<production count="1" id="61" />
+	</item>
+	<item>
+		<!-- Boots -->
+		<ingredient count="1" id="39" />
+		<!-- Adena -->
+		<ingredient count="8600" id="57" />
+		<!-- Leather Boots -->
+		<production count="1" id="40" />
+	</item>
+	<item>
+		<!-- Leather Boots -->
+		<ingredient count="1" id="40" />
+		<!-- Adena -->
+		<ingredient count="12400" id="57" />
+		<!-- Blue Buckskin Boots -->
+		<production count="1" id="1123" />
+	</item>
+	<item>
+		<!-- Blue Buckskin Boots -->
+		<ingredient count="1" id="1123" />
+		<!-- Adena -->
+		<ingredient count="17500" id="57" />
+		<!-- Boots of Knowledge -->
+		<production count="1" id="2423" />
+	</item>
+	<item>
+		<!-- Boots of Knowledge -->
+		<ingredient count="1" id="2423" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Boots of Power -->
+		<production count="1" id="1124" />
+	</item>
+	<item>
+		<!-- Boots of Knowledge -->
+		<ingredient count="1" id="2423" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Elven Mithril Boots -->
+		<production count="1" id="2426" />
+	</item>
+	<item>
+		<!-- Boots of Knowledge -->
+		<ingredient count="1" id="2423" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Manticore Skin Boots -->
+		<production count="1" id="2424" />
+	</item>
+	<item>
+		<!-- Boots of Knowledge -->
+		<ingredient count="1" id="2423" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Brigandine Boots -->
+		<production count="1" id="2425" />
+	</item>
+	<item>
+		<!-- Boots of Power -->
+		<ingredient count="1" id="1124" />
+		<!-- Adena -->
+		<ingredient count="28000" id="57" />
+		<!-- Plate Boots -->
+		<production count="1" id="2428" />
+	</item>
+	<item>
+		<!-- Elven Mithril Boots -->
+		<ingredient count="1" id="2426" />
+		<!-- Adena -->
+		<ingredient count="28000" id="57" />
+		<!-- Plate Boots -->
+		<production count="1" id="2428" />
+	</item>
+	<item>
+		<!-- Manticore Skin Boots -->
+		<ingredient count="1" id="2424" />
+		<!-- Adena -->
+		<ingredient count="28000" id="57" />
+		<!-- Plate Boots -->
+		<production count="1" id="2428" />
+	</item>
+	<item>
+		<!-- Brigandine Boots -->
+		<ingredient count="1" id="2425" />
+		<!-- Adena -->
+		<ingredient count="28000" id="57" />
+		<!-- Plate Boots -->
+		<production count="1" id="2428" />
+	</item>
+	<item>
+		<!-- Hard Leather Helmet -->
+		<ingredient count="1" id="1148" />
+		<!-- Adena -->
+		<ingredient count="8600" id="57" />
+		<!-- Bone Helmet -->
+		<production count="1" id="45" />
+	</item>
+	<item>
+		<!-- Bone Helmet -->
+		<ingredient count="1" id="45" />
+		<!-- Adena -->
+		<ingredient count="12400" id="57" />
+		<!-- Bronze Helmet -->
+		<production count="1" id="46" />
+	</item>
+	<item>
+		<!-- Bronze Helmet -->
+		<ingredient count="1" id="46" />
+		<!-- Adena -->
+		<ingredient count="17500" id="57" />
+		<!-- Helmet -->
+		<production count="1" id="47" />
+	</item>
+	<item>
+		<!-- Helmet -->
+		<ingredient count="1" id="47" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Brigandine Helmet -->
+		<production count="1" id="2411" />
+	</item>
+	<item>
+		<!-- Brigandine Helmet -->
+		<ingredient count="1" id="2411" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Plate Helmet -->
+		<production count="1" id="2412" />
+	</item>
+	<item>
+		<!-- Bone Shield -->
+		<ingredient count="1" id="625" />
+		<!-- Adena -->
+		<ingredient count="6400" id="57" />
+		<!-- Bronze Shield -->
+		<production count="1" id="626" />
+	</item>
+	<item>
+		<!-- Bronze Shield -->
+		<ingredient count="1" id="626" />
+		<!-- Adena -->
+		<ingredient count="8400" id="57" />
+		<!-- Aspis -->
+		<production count="1" id="627" />
+	</item>
+	<item>
+		<!-- Aspis -->
+		<ingredient count="1" id="627" />
+		<!-- Adena -->
+		<ingredient count="11500" id="57" />
+		<!-- Hoplon -->
+		<production count="1" id="628" />
+	</item>
+	<item>
+		<!-- Hoplon -->
+		<ingredient count="1" id="628" />
+		<!-- Adena -->
+		<ingredient count="17200" id="57" />
+		<!-- Kite Shield -->
+		<production count="1" id="629" />
+	</item>
+	<item>
+		<!-- Kite Shield -->
+		<ingredient count="1" id="629" />
+		<!-- Adena -->
+		<ingredient count="19100" id="57" />
+		<!-- Square Shield -->
+		<production count="1" id="630" />
+	</item>
+	<item>
+		<!-- Square Shield -->
+		<ingredient count="1" id="630" />
+		<!-- Adena -->
+		<ingredient count="20200" id="57" />
+		<!-- Brigandine Shield -->
+		<production count="1" id="2493" />
+	</item>
+	<item>
+		<!-- Brigandine Shield -->
+		<ingredient count="1" id="2493" />
+		<!-- Adena -->
+		<ingredient count="23900" id="57" />
+		<!-- Plate Shield -->
+		<production count="1" id="2494" />
+	</item>
+	<!-- 
+		C-Grade Weapons
+	-->
+	<item>
+		<!-- Staff of Life -->
+		<ingredient count="1" id="189" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Crystal Staff -->
+		<production count="1" id="192" />
+	</item>
+	<item>
+		<!-- Crystal Staff -->
+		<ingredient count="1" id="192" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Homunkulus Sword -->
+		<production count="1" id="84" />
+	</item>
+	<item>
+		<!-- Homunkulus Sword -->
+		<ingredient count="1" id="84" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Ghoul Staff -->
+		<production count="1" id="205" />
+	</item>
+	<item>
+		<!-- Elven Long Sword -->
+		<ingredient count="1" id="2499" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Stormbringer -->
+		<production count="1" id="72" />
+	</item>
+	<item>
+		<!-- Stormbringer -->
+		<ingredient count="1" id="72" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Sword of Delusion -->
+		<production count="1" id="76" />
+	</item>
+	<item>
+		<!-- Sword of Delusion -->
+		<ingredient count="1" id="76" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Samurai Longsword -->
+		<production count="1" id="135" />
+	</item>
+	<item>
+		<!-- Claymore -->
+		<ingredient count="1" id="70" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Flamberge -->
+		<production count="1" id="71" />
+	</item>
+	<item>
+		<!-- Flamberge -->
+		<ingredient count="1" id="71" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Berserker Blade -->
+		<production count="1" id="5286" />
+	</item>
+	<item>
+		<!-- Bonebreaker -->
+		<ingredient count="1" id="159" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Silver Axe -->
+		<production count="1" id="161" />
+	</item>
+	<item>
+		<!-- Silver Axe -->
+		<ingredient count="1" id="161" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- War Axe -->
+		<production count="1" id="162" />
+	</item>
+	<item>
+		<!-- War Axe -->
+		<ingredient count="1" id="162" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Yaksa Mace -->
+		<production count="1" id="2503" />
+	</item>
+	<item>
+		<!-- Mithril Dagger -->
+		<ingredient count="1" id="225" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Dark Elven Dagger -->
+		<production count="1" id="232" />
+	</item>
+	<item>
+		<!-- Dark Elven Dagger -->
+		<ingredient count="1" id="232" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Dark Screamer -->
+		<production count="1" id="233" />
+	</item>
+	<item>
+		<!-- Dark Screamer -->
+		<ingredient count="1" id="233" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Crystal Dagger -->
+		<production count="1" id="228" />
+	</item>
+	<item>
+		<!-- Light Crossbow -->
+		<ingredient count="1" id="280" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Crystallized Ice Bow -->
+		<production count="1" id="281" />
+	</item>
+	<item>
+		<!-- Crystallized Ice Bow -->
+		<ingredient count="1" id="281" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Akat Long Bow -->
+		<production count="1" id="283" />
+	</item>
+	<item>
+		<!-- Akat Long Bow -->
+		<ingredient count="1" id="283" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Eminence Bow -->
+		<production count="1" id="286" />
+	</item>
+	<item>
+		<!-- Glaive -->
+		<ingredient count="1" id="297" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Orcish Glaive -->
+		<production count="1" id="298" />
+	</item>
+	<item>
+		<!-- Orcish Glaive -->
+		<ingredient count="1" id="298" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Poleaxe -->
+		<production count="1" id="95" />
+	</item>
+	<item>
+		<!-- Poleaxe -->
+		<ingredient count="1" id="95" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Orcish Poleaxe -->
+		<production count="1" id="299" />
+	</item>
+	<item>
+		<!-- Scallop Jamadhr -->
+		<ingredient count="1" id="262" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Chakram -->
+		<production count="1" id="263" />
+	</item>
+	<item>
+		<!-- Chakram -->
+		<ingredient count="1" id="263" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Fisted Blade -->
+		<production count="1" id="265" />
+	</item>
+	<item>
+		<!-- Fisted Blade -->
+		<ingredient count="1" id="265" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Great Pata -->
+		<production count="1" id="266" />
+	</item>
+	<!-- 
+		C-Grade Armors
+	-->
+	<item>
+		<!-- Mithril Tunic -->
+		<ingredient count="1" id="437" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Karmian Tunic -->
+		<production count="1" id="439" />
+	</item>
+	<item>
+		<!-- Mithril Stockings -->
+		<ingredient count="1" id="470" />
+		<!-- Adena -->
+		<ingredient count="220000" id="57" />
+		<!-- Karmian Stockings -->
+		<production count="1" id="471" />
+	</item>
+	<item>
+		<!-- Karmian Tunic -->
+		<ingredient count="1" id="439" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Demon Tunic -->
+		<production count="1" id="441" />
+	</item>
+	<item>
+		<!-- Karmian Stockings -->
+		<ingredient count="1" id="471" />
+		<!-- Adena -->
+		<ingredient count="400000" id="57" />
+		<!-- Demon Stockings -->
+		<production count="1" id="472" />
+	</item>
+	<item>
+		<!-- Demon Tunic -->
+		<ingredient count="1" id="441" />
+		<!-- Adena -->
+		<ingredient count="800000" id="57" />
+		<!-- Divine Tunic -->
+		<production count="1" id="442" />
+	</item>
+	<item>
+		<!-- Demon Stockings -->
+		<ingredient count="1" id="472" />
+		<!-- Adena -->
+		<ingredient count="650000" id="57" />
+		<!-- Divine Stockings -->
+		<production count="1" id="473" />
+	</item>
+	<item>
+		<!-- Manticore Skin Shirt -->
+		<ingredient count="1" id="395" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Plated Leather -->
+		<production count="1" id="398" />
+	</item>
+	<item>
+		<!-- Manticore Skin Gaiters -->
+		<ingredient count="1" id="417" />
+		<!-- Adena -->
+		<ingredient count="220000" id="57" />
+		<!-- Plated Leather Gaiters -->
+		<production count="1" id="418" />
+	</item>
+	<item>
+		<!-- Plated Leather -->
+		<ingredient count="1" id="398" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Theca Leather Armor -->
+		<production count="1" id="400" />
+	</item>
+	<item>
+		<!-- Plated Leather Gaiters -->
+		<ingredient count="1" id="418" />
+		<!-- Adena -->
+		<ingredient count="400000" id="57" />
+		<!-- Theca Leather Gaiters -->
+		<production count="1" id="420" />
+	</item>
+	<item>
+		<!-- Theca Leather Armor -->
+		<ingredient count="1" id="400" />
+		<!-- Theca Leather Gaiters -->
+		<ingredient count="1" id="420" />
+		<!-- Adena -->
+		<ingredient count="1450000" id="57" />
+		<!-- Drake Leather Armor -->
+		<production count="1" id="401" />
+	</item>
+	<item>
+		<!-- Brigandine Tunic -->
+		<ingredient count="1" id="352" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Chain Mail Shirt -->
+		<production count="1" id="354" />
+	</item>
+	<item>
+		<!-- Brigandine Gaiters -->
+		<ingredient count="1" id="2378" />
+		<!-- Adena -->
+		<ingredient count="220000" id="57" />
+		<!-- Chain Gaiters -->
+		<production count="1" id="381" />
+	</item>
+	<item>
+		<!-- Chain Mail Shirt -->
+		<ingredient count="1" id="354" />
+		<!-- Chain Gaiters -->
+		<ingredient count="1" id="381" />
+		<!-- Adena -->
+		<ingredient count="900000" id="57" />
+		<!-- Composite Armor -->
+		<production count="1" id="60" />
+	</item>
+	<item>
+		<!-- Composite Armor -->
+		<ingredient count="1" id="60" />
+		<!-- Adena -->
+		<ingredient count="1450000" id="57" />
+		<!-- Full Plate Armor -->
+		<production count="1" id="356" />
+	</item>
+	<item>
+		<!-- Mithril Gloves -->
+		<ingredient count="1" id="61" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Karmian Gloves -->
+		<production count="1" id="2454" />
+	</item>
+	<item>
+		<!-- Karmian Gloves -->
+		<ingredient count="1" id="2454" />
+		<!-- Adena -->
+		<ingredient count="200000" id="57" />
+		<!-- Demon Gloves -->
+		<production count="1" id="2459" />
+	</item>
+	<item>
+		<!-- Demon Gloves -->
+		<ingredient count="1" id="2459" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Divine Gloves -->
+		<production count="1" id="2463" />
+	</item>
+	<item>
+		<!-- Mithril Gloves -->
+		<ingredient count="1" id="61" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Plated Leather Gloves -->
+		<production count="1" id="2455" />
+	</item>
+	<item>
+		<!-- Plated Leather Gloves -->
+		<ingredient count="1" id="2455" />
+		<!-- Adena -->
+		<ingredient count="200000" id="57" />
+		<!-- Theca Leather Gloves -->
+		<production count="1" id="2460" />
+	</item>
+	<item>
+		<!-- Theca Leather Gloves -->
+		<ingredient count="1" id="2460" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Drake Leather Gloves -->
+		<production count="1" id="2461" />
+	</item>
+	<item>
+		<!-- Mithril Gloves -->
+		<ingredient count="1" id="61" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Chain Gloves -->
+		<production count="1" id="2453" />
+	</item>
+	<item>
+		<!-- Chain Gloves -->
+		<ingredient count="1" id="2453" />
+		<!-- Adena -->
+		<ingredient count="200000" id="57" />
+		<!-- Mithril Gauntlets -->
+		<production count="1" id="608" />
+	</item>
+	<item>
+		<!-- Mithril Gauntlets -->
+		<ingredient count="1" id="608" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Full Plate Gauntlets -->
+		<production count="1" id="2462" />
+	</item>
+	<item>
+		<!-- Plate Boots -->
+		<ingredient count="1" id="2428" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Karmian Boots -->
+		<production count="1" id="2430" />
+	</item>
+	<item>
+		<!-- Karmian Boots -->
+		<ingredient count="1" id="2430" />
+		<!-- Adena -->
+		<ingredient count="200000" id="57" />
+		<!-- Demon Boots -->
+		<production count="1" id="2435" />
+	</item>
+	<item>
+		<!-- Plate Boots -->
+		<ingredient count="1" id="2428" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Plated Leather Boots -->
+		<production count="1" id="2431" />
+	</item>
+	<item>
+		<!-- Plated Leather Boots -->
+		<ingredient count="1" id="2431" />
+		<!-- Adena -->
+		<ingredient count="200000" id="57" />
+		<!-- Theca Leather Boots -->
+		<production count="1" id="2436" />
+	</item>
+	<item>
+		<!-- Theca Leather Boots -->
+		<ingredient count="1" id="2436" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Drake Leather Boots -->
+		<production count="1" id="2437" />
+	</item>
+	<item>
+		<!-- Plate Boots -->
+		<ingredient count="1" id="2428" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Chain Boots -->
+		<production count="1" id="2429" />
+	</item>
+	<item>
+		<!-- Chain Boots -->
+		<ingredient count="1" id="2429" />
+		<!-- Adena -->
+		<ingredient count="200000" id="57" />
+		<!-- Composite Boots -->
+		<production count="1" id="64" />
+	</item>
+	<item>
+		<!-- Composite Boots -->
+		<ingredient count="1" id="64" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Full Plate Boots -->
+		<production count="1" id="2438" />
+	</item>
+	<item>
+		<!-- Plate Helmet -->
+		<ingredient count="1" id="2412" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Chain Hood -->
+		<production count="1" id="2413" />
+	</item>
+	<item>
+		<!-- Chain Hood -->
+		<ingredient count="1" id="2413" />
+		<!-- Adena -->
+		<ingredient count="200000" id="57" />
+		<!-- Great Helmet -->
+		<production count="1" id="500" />
+	</item>
+	<item>
+		<!-- Great Helmet -->
+		<ingredient count="1" id="500" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Composite Helmet -->
+		<production count="1" id="517" />
+	</item>
+	<item>
+		<!-- Composite Helmet -->
+		<ingredient count="1" id="517" />
+		<!-- Adena -->
+		<ingredient count="400000" id="57" />
+		<!-- Full Plate Helmet -->
+		<production count="1" id="2414" />
+	</item>
+	<item>
+		<!-- Plate Shield -->
+		<ingredient count="1" id="2494" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Chain Shield -->
+		<production count="1" id="2495" />
+	</item>
+	<item>
+		<!-- Chain Shield -->
+		<ingredient count="1" id="2495" />
+		<!-- Adena -->
+		<ingredient count="200000" id="57" />
+		<!-- Knight's Shield -->
+		<production count="1" id="632" />
+	</item>
+	<item>
+		<!-- Knight's Shield -->
+		<ingredient count="1" id="632" />
+		<!-- Adena -->
+		<ingredient count="300000" id="57" />
+		<!-- Composite Shield -->
+		<production count="1" id="107" />
+	</item>
+	<item>
+		<!-- Composite Shield -->
+		<ingredient count="1" id="107" />
+		<!-- Adena -->
+		<ingredient count="400000" id="57" />
+		<!-- Full Plate Shield -->
+		<production count="1" id="2497" />
+	</item>
+	<!-- 
+		B-Grade Armors
+	-->
+	<item>
+		<!-- Full Plate Armor -->
+		<ingredient count="1" id="356" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Doom Plate Armor -->
+		<production count="1" id="2381" />
+	</item>
+	<item>
+		<!-- Full Plate Armor -->
+		<ingredient count="1" id="356" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Zubei's Breastplate -->
+		<production count="1" id="357" />
+		<!-- Zubei's Gaiters -->
+		<production count="1" id="383" />
+	</item>
+	<item>
+		<!-- Full Plate Armor -->
+		<ingredient count="1" id="356" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Blue Wolf Breastplate -->
+		<production count="1" id="358" />
+		<!-- Blue Wolf Gaiters -->
+		<production count="1" id="2380" />
+	</item>
+	<item>
+		<!-- Full Plate Armor -->
+		<ingredient count="1" id="356" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Avadon Breastplate -->
+		<production count="1" id="2376" />
+		<!-- Avadon Gaiters -->
+		<production count="1" id="2379" />
+	</item>
+	<item>
+		<!-- Full Plate Boots -->
+		<ingredient count="1" id="2438" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Boots -->
+		<production count="1" id="554" />
+	</item>
+	<item>
+		<!-- Full Plate Boots -->
+		<ingredient count="1" id="2438" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Avadon Boots -->
+		<production count="1" id="600" />
+	</item>
+	<item>
+		<!-- Full Plate Boots -->
+		<ingredient count="1" id="2438" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Boots of Doom -->
+		<production count="1" id="601" />
+	</item>
+	<item>
+		<!-- Full Plate Boots -->
+		<ingredient count="1" id="2438" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Boots -->
+		<production count="1" id="2439" />
+	</item>
+	<item>
+		<!-- Full Plate Gauntlets -->
+		<ingredient count="1" id="2462" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Gauntlets -->
+		<production count="1" id="612" />
+	</item>
+	<item>
+		<!-- Full Plate Gauntlets -->
+		<ingredient count="1" id="2462" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Avadon Gloves -->
+		<production count="1" id="2464" />
+	</item>
+	<item>
+		<!-- Full Plate Gauntlets -->
+		<ingredient count="1" id="2462" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Doom Gloves -->
+		<production count="1" id="2475" />
+	</item>
+	<item>
+		<!-- Full Plate Gauntlets -->
+		<ingredient count="1" id="2462" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Gloves -->
+		<production count="1" id="2487" />
+	</item>
+	<item>
+		<!-- Drake Leather Armor -->
+		<ingredient count="1" id="401" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Avadon Leather Armor -->
+		<production count="1" id="2390" />
+	</item>
+	<item>
+		<!-- Drake Leather Armor -->
+		<ingredient count="1" id="401" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Blue Wolf Leather Armor -->
+		<production count="1" id="2391" />
+	</item>
+	<item>
+		<!-- Drake Leather Armor -->
+		<ingredient count="1" id="401" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Leather Armor of Doom -->
+		<production count="1" id="2392" />
+	</item>
+	<item>
+		<!-- Drake Leather Armor -->
+		<ingredient count="1" id="401" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Zubei's Leather Shirt -->
+		<production count="1" id="2384" />
+		<!-- Zubei's Leather Gaiters -->
+		<production count="1" id="2388" />
+	</item>
+	<item>
+		<!-- Drake Leather Boots -->
+		<ingredient count="1" id="2437" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Boots -->
+		<production count="1" id="554" />
+	</item>
+	<item>
+		<!-- Drake Leather Boots -->
+		<ingredient count="1" id="2437" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Avadon Boots -->
+		<production count="1" id="600" />
+	</item>
+	<item>
+		<!-- Drake Leather Boots -->
+		<ingredient count="1" id="2437" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Boots of Doom -->
+		<production count="1" id="601" />
+	</item>
+	<item>
+		<!-- Drake Leather Boots -->
+		<ingredient count="1" id="2437" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Boots -->
+		<production count="1" id="2439" />
+	</item>
+	<item>
+		<!-- Drake Leather Gloves -->
+		<ingredient count="1" id="2461" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Gauntlets -->
+		<production count="1" id="612" />
+	</item>
+	<item>
+		<!-- Drake Leather Gloves -->
+		<ingredient count="1" id="2461" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Avadon Gloves -->
+		<production count="1" id="2464" />
+	</item>
+	<item>
+		<!-- Drake Leather Gloves -->
+		<ingredient count="1" id="2461" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Doom Gloves -->
+		<production count="1" id="2475" />
+	</item>
+	<item>
+		<!-- Drake Leather Gloves -->
+		<ingredient count="1" id="2461" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Gloves -->
+		<production count="1" id="2487" />
+	</item>
+	<item>
+		<!-- Divine Tunic -->
+		<ingredient count="1" id="442" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Tunic of Zubei -->
+		<production count="1" id="2397" />
+	</item>
+	<item>
+		<!-- Divine Stockings -->
+		<ingredient count="1" id="473" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Stockings of Zubei -->
+		<production count="1" id="2402" />
+	</item>
+	<item>
+		<!-- Divine Tunic -->
+		<ingredient count="1" id="442" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Tunic -->
+		<production count="1" id="2398" />
+	</item>
+	<item>
+		<!-- Divine Stockings -->
+		<ingredient count="1" id="473" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Stockings -->
+		<production count="1" id="2403" />
+	</item>
+	<item>
+		<!-- Divine Tunic -->
+		<ingredient count="1" id="442" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Tunic of Doom -->
+		<production count="1" id="2399" />
+	</item>
+	<item>
+		<!-- Divine Stockings -->
+		<ingredient count="1" id="473" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Stockings of Doom -->
+		<production count="1" id="2404" />
+	</item>
+	<item>
+		<!-- Divine Tunic -->
+		<ingredient count="1" id="442" />
+		<!-- Divine Stockings -->
+		<ingredient count="1" id="473" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Avadon Robe -->
+		<production count="1" id="2406" />
+	</item>
+	<item>
+		<!-- Demon Boots -->
+		<ingredient count="1" id="2435" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Boots -->
+		<production count="1" id="554" />
+	</item>
+	<item>
+		<!-- Demon Boots -->
+		<ingredient count="1" id="2435" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Avadon Boots -->
+		<production count="1" id="600" />
+	</item>
+	<item>
+		<!-- Demon Boots -->
+		<ingredient count="1" id="2435" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Boots of Doom -->
+		<production count="1" id="601" />
+	</item>
+	<item>
+		<!-- Demon Boots -->
+		<ingredient count="1" id="2435" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Boots -->
+		<production count="1" id="2439" />
+	</item>
+	<item>
+		<!-- Divine Gloves -->
+		<ingredient count="1" id="2463" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Gauntlets -->
+		<production count="1" id="612" />
+	</item>
+	<item>
+		<!-- Divine Gloves -->
+		<ingredient count="1" id="2463" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Avadon Gloves -->
+		<production count="1" id="2464" />
+	</item>
+	<item>
+		<!-- Divine Gloves -->
+		<ingredient count="1" id="2463" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Doom Gloves -->
+		<production count="1" id="2475" />
+	</item>
+	<item>
+		<!-- Divine Gloves -->
+		<ingredient count="1" id="2463" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Gloves -->
+		<production count="1" id="2487" />
+	</item>
+	<item>
+		<!-- Full Plate Helmet -->
+		<ingredient count="1" id="2414" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Helmet -->
+		<production count="1" id="503" />
+	</item>
+	<item>
+		<!-- Full Plate Helmet -->
+		<ingredient count="1" id="2414" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Avadon Circlet -->
+		<production count="1" id="2415" />
+	</item>
+	<item>
+		<!-- Full Plate Helmet -->
+		<ingredient count="1" id="2414" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Helmet -->
+		<production count="1" id="2416" />
+	</item>
+	<item>
+		<!-- Full Plate Helmet -->
+		<ingredient count="1" id="2414" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Doom Helmet -->
+		<production count="1" id="2417" />
+	</item>
+	<item>
+		<!-- Full Plate Shield -->
+		<ingredient count="1" id="2497" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Doom Shield -->
+		<production count="1" id="110" />
+	</item>
+	<item>
+		<!-- Full Plate Shield -->
+		<ingredient count="1" id="2497" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Shield -->
+		<production count="1" id="633" />
+	</item>
+	<item>
+		<!-- Full Plate Shield -->
+		<ingredient count="1" id="2497" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Avadon Shield -->
+		<production count="1" id="673" />
+	</item>
+	<!-- 
+		B-Grade Weapons
+	-->
+	<item>
+		<!-- Ghoul Staff -->
+		<ingredient count="1" id="205" />
+		<!-- Recipe: Staff of Evil Spirits -->
+		<ingredient count="1" id="5004" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Staff of Evil Spirits -->
+		<production count="1" id="210" />
+	</item>
+	<item>
+		<!-- Berserker Blade -->
+		<ingredient count="1" id="5286" />
+		<!-- Recipe: Great Sword -->
+		<ingredient count="1" id="4963" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Great Sword -->
+		<production count="1" id="78" />
+	</item>
+	<item>
+		<!-- Great Pata -->
+		<ingredient count="1" id="266" />
+		<!-- Recipe: Arthro Nail -->
+		<ingredient count="1" id="4970" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Arthro Nail -->
+		<production count="1" id="267" />
+	</item>
+	<item>
+		<!-- Dwarven Hammer -->
+		<ingredient count="1" id="7897" />
+		<!-- Recipe: Great Axe -->
+		<ingredient count="1" id="4972" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Great Axe -->
+		<production count="1" id="300" />
+	</item>
+	<item>
+		<!-- Crystal Dagger -->
+		<ingredient count="1" id="228" />
+		<!-- Recipe: Kris -->
+		<ingredient count="1" id="4968" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Kris -->
+		<production count="1" id="229" />
+	</item>
+	<item>
+		<!-- Ghoul Staff -->
+		<ingredient count="1" id="205" />
+		<!-- Recipe: Hell Knife -->
+		<ingredient count="1" id="4969" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Hell Knife -->
+		<production count="1" id="243" />
+	</item>
+	<item>
+		<!-- Samurai Longsword -->
+		<ingredient count="1" id="135" />
+		<!-- Recipe: Keshanberk -->
+		<ingredient count="1" id="4966" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Keshanberk -->
+		<production count="1" id="142" />
+	</item>
+	<item>
+		<!-- Eminence Bow -->
+		<ingredient count="1" id="286" />
+		<!-- Recipe: Dark Elven Long Bow -->
+		<ingredient count="1" id="4971" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Dark Elven Long Bow -->
+		<production count="1" id="284" />
+	</item>
+</list>

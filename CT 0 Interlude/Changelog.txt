@@ -1,0 +1,47 @@
+Rates:
+	XP/SP         : x3
+	Drop/Spoil    : x1
+	Adena         : x3
+	Quest drop    : x3
+	Quest amount  : x1
+	Quest adena   : x1
+
+- restored gatekeeper teleport fees
+- fixed Enku Orc Overlords not spawning in the quest Q00220_TestimonyOfGlory 
+- changed Q00326_VanquishRemnants item drop rate from ~15% to 80%
+- lion claws are now NOT removed from player's inventory in quest Q00333_HuntOfTheBlackLion 
+- changed Q00313_CollectSpores item drop rate from 40% to 80%
+- removed adena cost of crafting materials in blacksmiths
+- added armors and weapons for crafting in blacksmiths
+- changed herb durations from 5 minutes to 2 minutes
+- added scheme buffer
+- added all buff classes' buffs to scheme buffer
+- scheme buffer now requires the player to be Lv. 24 and above to recieve buffs
+- added a config in Character.ini to set the min and max level for using the Newbie Guide Buffer
+- added a config in Character.ini to set the required level for using the Scheme Buffer
+- fixed a bug where the dwarf blackmiths took the recipes when crafting
+- changed safe enchant to +15
+- reduced skill Sleep cast time
+- added D and C-Grade weapons and armors to shops' exchange lists
+- added low B-Grade weapons to the exchange list
+- disabled chest traps
+- changed hp regen while sitting from x1.5 to 3.0
+- changed mp regen while sitting from x1.5 to 5.0
+- fixed Q00354_ConquestOfAlligatorIsland npc not giving reward for items, also adena reward amount fixed
+- changed Q00647_InfluxOfMachines item drop rate from 30% to 100%
+- fixed Q00647_InfluxOfMachines rewards
+- fixed Q00336_CoinsOfMagic and restored its multisells
+- changed Q00376_ExplorationOfTheGiantsCavePart1 drop rate for Mysterious Book from 0,1% to 5%
+- fixed Q00374_WhisperOfDreamsPart1 drop rates
+- changed Q00374_WhisperOfDreamsPart1 drop rate for Sealed Mysterious Stone from 1% to 5%
+- fixed Q00375_WhisperOfDreamsPart2 drop rates
+- activated Heavy Medal Event (from 08/10/2024 to 28/10/2024)
+- activated L2 Day Event (from 08/11/2024 to 28/11/2024)
+- fixed Q00648_AnIceMerchantsDream drop rates
+- added an option to trade AA for adena, and vice versa, in the Merchant of Mammon
+- changed Q00385_YokeOfThePast drop rate for Scroll of Ancient Magic from ~random % to 100%
+- fixed Q00372_LegacyOfInsolence drop rates
+- fixed Q00325_GrimCollector drop rates
+- added a config option in Rates.ini to set RateQuestDrop and AmountQuestDrop separately
+- fixed Q00163_LegacyOfThePoet drop rates
+- increased activation rate of Surrender to fire, water, wind, earth and poison

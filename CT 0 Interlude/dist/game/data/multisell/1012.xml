@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list applyTaxes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>30283</npc> <!-- Altran -->
+		<npc>30298</npc> <!-- Pinter -->
+		<npc>30300</npc> <!-- Pushkin -->
+		<npc>30307</npc> <!-- Karrod -->
+		<npc>30317</npc> <!-- Kluto -->
+		<npc>30363</npc> <!-- Aios -->
+		<npc>30458</npc> <!-- Poitan -->
+		<npc>30471</npc> <!-- Rupio -->
+		<npc>30526</npc> <!-- Brunon -->
+		<npc>30527</npc> <!-- Silvera -->
+		<npc>30564</npc> <!-- Sumari -->
+		<npc>30678</npc> <!-- Helton -->
+		<npc>30688</npc> <!-- Duning -->
+		<npc>30846</npc> <!-- Wilbert -->
+		<npc>30898</npc> <!-- Morning -->
+		<npc>31271</npc> <!-- Hilda -->
+		<npc>31316</npc> <!-- Vincenz -->
+		<npc>31583</npc> <!-- Feynn -->
+		<npc>31960</npc> <!-- Buryun -->
+		<npc>31990</npc> <!-- Siger -->
+	</npcs>
+	<!--
+
+		*** C-Grade Jewelry ***
+	
+	-->
+	<item>
+		<!-- Recipe: Aquastone Necklace -->
+		<ingredient count="1" id="2162" maintainIngredient="true" />
+		<!-- Aquastone Necklace Chain -->
+		<ingredient count="8" id="1910" />
+		<!-- Adena -->
+		<ingredient count="90000" id="57" />
+		<!-- Aquastone Necklace -->
+		<production count="1" id="915" />
+	</item>
+	<item>
+		<!-- Recipe: Necklace Of Protection -->
+		<ingredient count="1" id="2165" maintainIngredient="true" />
+		<!-- Necklace Of Protection Chain -->
+		<ingredient count="9" id="1913" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Necklace Of Protection -->
+		<production count="1" id="916" />
+	</item>
+	<item>
+		<!-- Recipe: Necklace Of Mermaid -->
+		<ingredient count="1" id="2168" maintainIngredient="true" />
+		<!-- Necklace Of Mermaid Chain -->
+		<ingredient count="10" id="1916" />
+		<!-- Adena -->
+		<ingredient count="110000" id="57" />
+		<!-- Necklace Of Mermaid -->
+		<production count="1" id="917" />
+	</item>
+	<item>
+		<!-- Recipe: Necklace Of Binding -->
+		<ingredient count="1" id="2169" maintainIngredient="true" />
+		<!-- Necklace Of Binding Chain -->
+		<ingredient count="11" id="1920" />
+		<!-- Adena -->
+		<ingredient count="120000" id="57" />
+		<!-- Necklace Of Binding -->
+		<production count="1" id="119" />
+	</item>
+	<item>
+		<!-- Recipe: Moonstone Earring -->
+		<ingredient count="1" id="2160" maintainIngredient="true" />
+		<!-- Moonstone Earring Chain -->
+		<ingredient count="8" id="1908" />
+		<!-- Adena -->
+		<ingredient count="7000" id="57" />
+		<!-- Moonstone Earring -->
+		<production count="1" id="852" />
+	</item>
+	<item>
+		<!-- Recipe: Earring Of Protection -->
+		<ingredient count="1" id="2163" maintainIngredient="true" />
+		<!-- Earring Of Protection Chain -->
+		<ingredient count="9" id="1911" />
+		<!-- Adena -->
+		<ingredient count="80000" id="57" />
+		<!-- Earring Of Protection -->
+		<production count="1" id="853" />
+	</item>
+	<item>
+		<!-- Recipe: Earring Of Binding -->
+		<ingredient count="1" id="2166" maintainIngredient="true" />
+		<!-- Earring Of Binding Chain -->
+		<ingredient count="10" id="1914" />
+		<!-- Adena -->
+		<ingredient count="90000" id="57" />
+		<!-- Earring Of Binding -->
+		<production count="1" id="854" />
+	</item>
+	<item>
+		<!-- Recipe: Nassen's Earring -->
+		<ingredient count="1" id="2170" maintainIngredient="true" />
+		<!-- Nassen's Earring Chain -->
+		<ingredient count="11" id="1918" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Nassen's Earring -->
+		<production count="1" id="855" />
+	</item>
+	<item>
+		<!-- Recipe: Aquastone Ring -->
+		<ingredient count="1" id="2161" maintainIngredient="true" />
+		<!-- Aquastone Ring Chain -->
+		<ingredient count="8" id="1909" />
+		<!-- Adena -->
+		<ingredient count="7000" id="57" />
+		<!-- Aquastone Ring -->
+		<production count="1" id="883" />
+	</item>
+	<item>
+		<!-- Recipe: Ring Of Protection -->
+		<ingredient count="1" id="2164" maintainIngredient="true" />
+		<!-- Ring Of Protection Chain -->
+		<ingredient count="9" id="1912" />
+		<!-- Adena -->
+		<ingredient count="80000" id="57" />
+		<!-- Ring Of Protection -->
+		<production count="1" id="884" />
+	</item>
+	<item>
+		<!-- Recipe: Ring Of Ages -->
+		<ingredient count="1" id="2167" maintainIngredient="true" />
+		<!-- Ring Of Ages Chain -->
+		<ingredient count="10" id="1915" />
+		<!-- Adena -->
+		<ingredient count="90000" id="57" />
+		<!-- Ring Of Ages -->
+		<production count="1" id="885" />
+	</item>
+	<item>
+		<!-- Recipe: Ring Of Binding -->
+		<ingredient count="1" id="2970" maintainIngredient="true" />
+		<!-- Ring Of Binding Chain -->
+		<ingredient count="11" id="2917" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Ring Of Binding -->
+		<production count="1" id="886" />
+	</item>
+	<!--
+
+		*** B-Grade Jewelry ***
+	
+	-->
+	<item>
+		<!-- Recipe: Adamantite Necklace -->
+		<ingredient count="1" id="4128" maintainIngredient="true" />
+		<!-- Adamantite Necklace Chain -->
+		<ingredient count="12" id="4051" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Adamantite Necklace -->
+		<production count="1" id="918" />
+	</item>
+	<item>
+		<!-- Recipe: Necklace Of Black Ore -->
+		<ingredient count="1" id="4131" maintainIngredient="true" />
+		<!-- Necklace Of Black Ore Chain -->
+		<ingredient count="13" id="4054" />
+		<!-- Adena -->
+		<ingredient count="800000" id="57" />
+		<!-- Necklace Of Black Ore -->
+		<production count="1" id="926" />
+	</item>
+	<item>
+		<!-- Recipe: Adamantite Earring -->
+		<ingredient count="1" id="4126" maintainIngredient="true" />
+		<!-- Adamantite Earring Chain -->
+		<ingredient count="12" id="4049" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Adamantite Earring -->
+		<production count="1" id="856" />
+	</item>
+	<item>
+		<!-- Recipe: Earring Of Black Ore -->
+		<ingredient count="1" id="4129" maintainIngredient="true" />
+		<!-- Earring Of Black Ore Chain -->
+		<ingredient count="13" id="4052" />
+		<!-- Adena -->
+		<ingredient count="800000" id="57" />
+		<!-- Earring Of Black Ore -->
+		<production count="1" id="864" />
+	</item>
+	<item>
+		<!-- Recipe: Adamantite Ring -->
+		<ingredient count="1" id="4127" maintainIngredient="true" />
+		<!-- Adamantite Ring Chain -->
+		<ingredient count="12" id="4050" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Adamantite Ring -->
+		<production count="1" id="887" />
+	</item>
+	<item>
+		<!-- Recipe: Ring Of Black Ore -->
+		<ingredient count="1" id="4130" maintainIngredient="true" />
+		<!-- Ring Of Black Ore Chain -->
+		<ingredient count="13" id="4053" />
+		<!-- Adena -->
+		<ingredient count="800000" id="57" />
+		<!-- Ring Of Black Ore -->
+		<production count="1" id="895" />
+	</item>
+	<!--
+
+		*** A-Grade Jewelry ***
+	
+	-->
+	<item>
+		<!-- Recipe: Sealed Phoenix Necklace -->
+		<ingredient count="1" id="6329" maintainIngredient="true" />
+		<!-- Sealed Phoenix Necklace Chain -->
+		<ingredient count="13" id="6343" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Sealed Phoenix Necklace -->
+		<production count="1" id="6323" />
+	</item>
+	<item>
+		<!-- Recipe: Sealed Majestic Necklace -->
+		<ingredient count="1" id="6335" maintainIngredient="true" />
+		<!-- Sealed Majestic Necklace Chain -->
+		<ingredient count="14" id="6344" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Sealed Majestic Necklace -->
+		<production count="1" id="6326" />
+	</item>
+	<item>
+		<!-- Recipe: Sealed Phoenix Earring -->
+		<ingredient count="1" id="6331" maintainIngredient="true" />
+		<!-- Sealed Phoenix Earring Chain -->
+		<ingredient count="13" id="6341" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Sealed Phoenix Earring -->
+		<production count="1" id="6324" />
+	</item>
+	<item>
+		<!-- Recipe: Sealed Majestic Earring -->
+		<ingredient count="1" id="6337" maintainIngredient="true" />
+		<!-- Sealed Majestic Earring Chain -->
+		<ingredient count="14" id="6342" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Sealed Majestic Earring -->
+		<production count="1" id="6327" />
+	</item>
+	<item>
+		<!-- Recipe: Sealed Phoenix Ring -->
+		<ingredient count="1" id="6333" maintainIngredient="true" />
+		<!-- Sealed Phoenix Ring Chain -->
+		<ingredient count="13" id="6345" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Sealed Phoenix Ring Ring -->
+		<production count="1" id="6325" />
+	</item>
+	<item>
+		<!-- Recipe: Sealed Majestic Ring -->
+		<ingredient count="1" id="6339" maintainIngredient="true" />
+		<!-- Sealed Majestic Ring Chain -->
+		<ingredient count="14" id="6346" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Sealed Majestic Ring -->
+		<production count="1" id="6328" />
+	</item>
+</list>

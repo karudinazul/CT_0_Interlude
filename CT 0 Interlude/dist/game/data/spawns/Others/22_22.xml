@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="22_22">
+		<npc id="50008" x="83462" y="147907" z="-3408" heading="16383" respawnDelay="60" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="31126" x="82189" y="148530" z="-3469" heading="64055" respawnDelay="60" /> <!-- Blacksmith of Mammon -->
+		<npc id="31113" x="82195" y="148635" z="-3469" heading="65014" respawnDelay="60" /> <!-- Merchant of Mammon -->
+	</spawn>
+</list>

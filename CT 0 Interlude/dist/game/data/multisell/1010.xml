@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list applyTaxes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>30283</npc> <!-- Altran -->
+		<npc>30298</npc> <!-- Pinter -->
+		<npc>30300</npc> <!-- Pushkin -->
+		<npc>30307</npc> <!-- Karrod -->
+		<npc>30317</npc> <!-- Kluto -->
+		<npc>30363</npc> <!-- Aios -->
+		<npc>30458</npc> <!-- Poitan -->
+		<npc>30471</npc> <!-- Rupio -->
+		<npc>30526</npc> <!-- Brunon -->
+		<npc>30527</npc> <!-- Silvera -->
+		<npc>30564</npc> <!-- Sumari -->
+		<npc>30678</npc> <!-- Helton -->
+		<npc>30688</npc> <!-- Duning -->
+		<npc>30846</npc> <!-- Wilbert -->
+		<npc>30898</npc> <!-- Morning -->
+		<npc>31271</npc> <!-- Hilda -->
+		<npc>31316</npc> <!-- Vincenz -->
+		<npc>31583</npc> <!-- Feynn -->
+		<npc>31960</npc> <!-- Buryun -->
+		<npc>31990</npc> <!-- Siger -->
+	</npcs>
+	<!--
+
+		*** C-Grade Armors ***
+	
+	-->
+	<!-- Karmian Set Robe -->
+	<item>
+		<!-- Recipe: Karmian Tunic -->
+		<ingredient count="1" id="2207" maintainIngredient="true" />
+		<!-- Karmian Tunic Pattern -->
+		<ingredient count="8" id="1962" />
+		<!-- Adena -->
+		<ingredient count="75000" id="57" />
+		<!-- Karmian Tunic -->
+		<production count="1" id="439" />
+	</item>
+	<item>
+		<!-- Recipe: Karmian Stockings -->
+		<ingredient count="1" id="2199" maintainIngredient="true" />
+		<!-- Karmian Stocking Design -->
+		<ingredient count="8" id="1954" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Karmian Stockings -->
+		<production count="1" id="471" />
+	</item>
+	<item>
+		<!-- Recipe: Karmian Gloves -->
+		<ingredient count="1" id="2997" maintainIngredient="true" />
+		<!-- Karmian Gloves Fabric -->
+		<ingredient count="8" id="2944" />
+		<!-- Adena -->
+		<ingredient count="50000" id="57" />
+		<!-- Karmian Gloves -->
+		<production count="1" id="2454" />
+	</item>
+	<item>
+		<!-- Recipe: Karmian Boots -->
+		<ingredient count="1" id="2991" maintainIngredient="true" />
+		<!-- Karmian Boots Fabric -->
+		<ingredient count="8" id="2938" />
+		<!-- Adena -->
+		<ingredient count="50000" id="57" />
+		<!-- Karmian Boots -->
+		<production count="1" id="2430" />
+	</item>
+	<!-- Demon Set Robe -->
+	<item>
+		<!-- Recipe: Demon's Tunic -->
+		<ingredient count="1" id="2224" maintainIngredient="true" />
+		<!-- Demon's Tunic Fabric -->
+		<ingredient count="10" id="1979" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Demon's Tunic -->
+		<production count="1" id="441" />
+	</item>
+	<item>
+		<!-- Recipe: Demon's Stockings -->
+		<ingredient count="1" id="2225" maintainIngredient="true" />
+		<!-- Demon's Stocking Pattern -->
+		<ingredient count="10" id="1980" />
+		<!-- Adena -->
+		<ingredient count="85000" id="57" />
+		<!-- Demon's Stockings -->
+		<production count="1" id="472" />
+	</item>
+	<item>
+		<!-- Recipe: Demon's Gloves -->
+		<ingredient count="1" id="3006" maintainIngredient="true" />
+		<!-- Demon's Gloves Fabric -->
+		<ingredient count="10" id="2953" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Demon's Gloves -->
+		<production count="1" id="2459" />
+	</item>
+	<item>
+		<!-- Recipe: Demon's Boots -->
+		<ingredient count="1" id="3005" maintainIngredient="true" />
+		<!-- Demon's Boots Fabric -->
+		<ingredient count="10" id="2952" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Demon's Boots -->
+		<production count="1" id="2435" />
+	</item>
+	<!-- Divine Set Robe -->
+	<item>
+		<!-- Recipe: Divine Tunic -->
+		<ingredient count="1" id="2233" maintainIngredient="true" />
+		<!-- Divine Tunic Fabric -->
+		<ingredient count="11" id="1988" />
+		<!-- Adena -->
+		<ingredient count="150000" id="57" />
+		<!-- Divine Tunic -->
+		<production count="1" id="442" />
+	</item>
+	<item>
+		<!-- Recipe: Divine Stockings -->
+		<ingredient count="1" id="2234" maintainIngredient="true" />
+		<!-- Divine Stocking Pattern -->
+		<ingredient count="11" id="1989" />
+		<!-- Adena -->
+		<ingredient count="120000" id="57" />
+		<!-- Divine Stockings -->
+		<production count="1" id="473" />
+	</item>
+	<item>
+		<!-- Recipe: Divine Gloves -->
+		<ingredient count="1" id="3017" maintainIngredient="true" />
+		<!-- Divine Gloves Pattern -->
+		<ingredient count="11" id="2964" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Divine Gloves -->
+		<production count="1" id="2463" />
+	</item>
+	<item>
+		<!-- Recipe: Divine Boots -->
+		<ingredient count="1" id="3011" maintainIngredient="true" />
+		<!-- Divine Boots Fabric -->
+		<ingredient count="11" id="2958" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Divine Boots -->
+		<production count="1" id="603" />
+	</item>
+	<!-- Chain Mail Set Heavy -->
+	<item>
+		<!-- Recipe: Chain Mail Shirt -->
+		<ingredient count="1" id="2204" maintainIngredient="true" />
+		<!-- Chain Mail Shirt Material -->
+		<ingredient count="8" id="1959" />
+		<!-- Adena -->
+		<ingredient count="75000" id="57" />
+		<!-- Chain Mail Shirt -->
+		<production count="1" id="354" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Gaiters -->
+		<ingredient count="1" id="2205" maintainIngredient="true" />
+		<!-- Chain Gaiters Part -->
+		<ingredient count="8" id="1960" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Chain Gaiters -->
+		<production count="1" id="381" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Gloves -->
+		<ingredient count="1" id="2996" maintainIngredient="true" />
+		<!-- Chain Gloves Design -->
+		<ingredient count="8" id="2943" />
+		<!-- Adena -->
+		<ingredient count="50000" id="57" />
+		<!-- Chain Gloves -->
+		<production count="1" id="2453" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Boots-->
+		<ingredient count="1" id="2990" maintainIngredient="true" />
+		<!-- Chain Boots Part -->
+		<ingredient count="8" id="2937" />
+		<!-- Adena -->
+		<ingredient count="50000" id="57" />
+		<!-- Chain Boots -->
+		<production count="1" id="2429" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Hood -->
+		<ingredient count="1" id="2989" maintainIngredient="true" />
+		<!-- Chain Hood Pattern -->
+		<ingredient count="8" id="2936" />
+		<!-- Adena -->
+		<ingredient count="50000" id="57" />
+		<!-- Chain Hood -->
+		<production count="1" id="2413" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Shield -->
+		<ingredient count="1" id="2998" maintainIngredient="true" />
+		<!-- Chain Shield Fragment -->
+		<ingredient count="8" id="2945" />
+		<!-- Adena -->
+		<ingredient count="50000" id="57" />
+		<!-- Chain Shield -->
+		<production count="1" id="2495" />
+	</item>
+	<!-- Composite Set Heavy -->
+	<item>
+		<!-- Recipe: Composite Armor -->
+		<ingredient count="1" id="2222" maintainIngredient="true" />
+		<!-- Composite Armor Temper -->
+		<ingredient count="10" id="1977" />
+		<!-- Adena -->
+		<ingredient count="185000" id="57" />
+		<!-- Composite Armor -->
+		<production count="1" id="60" />
+	</item>
+	<item>
+		<!-- Recipe: Composite Boots-->
+		<ingredient count="1" id="3009" maintainIngredient="true" />
+		<!-- Composite Boots Part -->
+		<ingredient count="10" id="2956" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Composite Boots -->
+		<production count="1" id="64" />
+	</item>
+	<item>
+		<!-- Recipe: Composite Helmet -->
+		<ingredient count="1" id="3010" maintainIngredient="true" />
+		<!-- Composite Helmet Design -->
+		<ingredient count="10" id="2957" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Composite Helmet -->
+		<production count="1" id="517" />
+	</item>
+	<item>
+		<!-- Recipe: Composite Shield -->
+		<ingredient count="1" id="4132" maintainIngredient="true" />
+		<!-- Composite Shield Fragment -->
+		<ingredient count="10" id="4055" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Composite Shield -->
+		<production count="1" id="107" />
+	</item>
+	<!-- Full Plate Set Heavy -->
+	<item>
+		<!-- Recipe: Full Plate Armor -->
+		<ingredient count="1" id="2231" maintainIngredient="true" />
+		<!-- Full Plate Armor Temper -->
+		<ingredient count="11" id="1986" />
+		<!-- Adena -->
+		<ingredient count="270000" id="57" />
+		<!-- Full Plate Armor -->
+		<production count="1" id="356" />
+	</item>
+	<item>
+		<!-- Recipe: Full Plate Gauntlets-->
+		<ingredient count="1" id="3016" maintainIngredient="true" />
+		<!-- Full Plate Gauntlets Part -->
+		<ingredient count="11" id="2963" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Full Plate Gauntlets -->
+		<production count="1" id="2462" />
+	</item>
+	<item>
+		<!-- Recipe: Full Plate Boots-->
+		<ingredient count="1" id="3014" maintainIngredient="true" />
+		<!--  Full Plate Boots Part -->
+		<ingredient count="11" id="2961" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!--  Full Plate Boots -->
+		<production count="1" id="2438" />
+	</item>
+	<item>
+		<!-- Recipe: Full Plate Helmet -->
+		<ingredient count="1" id="3012" maintainIngredient="true" />
+		<!--  Full Plate Helmet Design -->
+		<ingredient count="11" id="2959" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!--  Full Plate Helmet -->
+		<production count="1" id="2414" />
+	</item>
+	<item>
+		<!-- Recipe: Full Plate Shield -->
+		<ingredient count="1" id="3019" maintainIngredient="true" />
+		<!--  Full Plate Shield Fragment -->
+		<ingredient count="11" id="2966" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!--  Full Plate Shield -->
+		<production count="1" id="2497" />
+	</item>
+	<!-- Plated Leather Set Light -->
+	<item>
+		<!-- Recipe: Plate Leather Armor -->
+		<ingredient count="1" id="2211" maintainIngredient="true" />
+		<!-- Plated Leather Fragment -->
+		<ingredient count="9" id="1966" />
+		<!-- Adena -->
+		<ingredient count="75000" id="57" />
+		<!-- Plated Leather -->
+		<production count="1" id="398" />
+	</item>
+	<item>
+		<!-- Recipe: Plated Leather Gaiters -->
+		<ingredient count="1" id="2212" maintainIngredient="true" />
+		<!--  Plated Leather Gaiters Material -->
+		<ingredient count="9" id="1967" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Plated Leather Gaiters -->
+		<production count="1" id="418" />
+	</item>
+	<item>
+		<!-- Recipe: Plated Leather Gloves -->
+		<ingredient count="1" id="2999" maintainIngredient="true" />
+		<!-- Plate Leather Gloves Design -->
+		<ingredient count="9" id="2946" />
+		<!-- Adena -->
+		<ingredient count="50000" id="57" />
+		<!-- Plated Leather Gloves -->
+		<production count="1" id="2455" />
+	</item>
+	<item>
+		<!-- Recipe: Plated Leather Boots -->
+		<ingredient count="1" id="2992" maintainIngredient="true" />
+		<!-- Plate Leather Boot Lining -->
+		<ingredient count="8" id="2939" />
+		<!-- Adena -->
+		<ingredient count="50000" id="57" />
+		<!-- Plated Leather Boots -->
+		<production count="1" id="2431" />
+	</item>
+	<!-- Theca Leather Set Light -->
+	<item>
+		<!-- Recipe: Theca Leather Armor -->
+		<ingredient count="1" id="2229" maintainIngredient="true" />
+		<!-- Theca Leather Armor Fragment -->
+		<ingredient count="10" id="1984" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Theca Leather Armor -->
+		<production count="1" id="400" />
+	</item>
+	<item>
+		<!-- Recipe: Theca Leather Gaiters -->
+		<ingredient count="1" id="2230" maintainIngredient="true" />
+		<!--  Theca Leather Gaiters Material -->
+		<ingredient count="10" id="1985" />
+		<!-- Adena -->
+		<ingredient count="85000" id="57" />
+		<!-- Theca Leather Gaiters -->
+		<production count="1" id="420" />
+	</item>
+	<item>
+		<!-- Recipe: Theca Leather Gloves -->
+		<ingredient count="1" id="3008" maintainIngredient="true" />
+		<!-- Theca Leather Gloves Texture -->
+		<ingredient count="10" id="2955" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Theca Leather Gloves -->
+		<production count="1" id="2460" />
+	</item>
+	<item>
+		<!-- Recipe: Theca Leather Boots -->
+		<ingredient count="1" id="3007" maintainIngredient="true" />
+		<!-- Theca Leather Boot Texture -->
+		<ingredient count="10" id="2954" />
+		<!-- Adena -->
+		<ingredient count="65000" id="57" />
+		<!-- Theca Leather Boots -->
+		<production count="1" id="2436" />
+	</item>
+	<!-- Drake Leather Set Light -->
+	<item>
+		<!-- Recipe: Drake Leather Armor -->
+		<ingredient count="1" id="2232" maintainIngredient="true" />
+		<!-- Drake Leather Armor Texture -->
+		<ingredient count="11" id="1987" />
+		<!-- Adena -->
+		<ingredient count="270000" id="57" />
+		<!--  Drake Leather Armor -->
+		<production count="1" id="401" />
+	</item>
+	<item>
+		<!-- Recipe: Drake Leather Gloves -->
+		<ingredient count="1" id="3015" maintainIngredient="true" />
+		<!-- Drake Leather Gloves Design -->
+		<ingredient count="11" id="2962" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Drake Leather Gloves -->
+		<production count="1" id="2461" />
+	</item>
+	<item>
+		<!-- Recipe: Drake Leather Boots -->
+		<ingredient count="1" id="3013" maintainIngredient="true" />
+		<!-- Drake Leather Boots Design -->
+		<ingredient count="11" id="2960" />
+		<!-- Adena -->
+		<ingredient count="100000" id="57" />
+		<!-- Drake Leather Boots -->
+		<production count="1" id="2437" />
+	</item>
+	<!--
+
+		*** B-Grade Armors ***
+	
+	-->
+	<!-- Zubei Sets -->
+	<item>
+		<!-- Recipe: Zubei's Breastplate -->
+		<ingredient count="1" id="4133" maintainIngredient="true" />
+		<!-- Zubei's Breastplate Part -->
+		<ingredient count="12" id="4056" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Breastplate -->
+		<production count="1" id="357" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Gaiters -->
+		<ingredient count="1" id="4134" maintainIngredient="true" />
+		<!-- Zubei's Gaiters Material -->
+		<ingredient count="12" id="4057" />
+		<!-- Adena -->
+		<ingredient count="750000" id="57" />
+		<!-- Zubei's Gaiters -->
+		<production count="1" id="383" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Leather Shirt -->
+		<ingredient count="1" id="4143" maintainIngredient="true" />
+		<!-- Zubei's Leather Shirt Fabric -->
+		<ingredient count="12" id="4066" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Zubei's Leather Shirt -->
+		<production count="1" id="2384" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Leather Gaiters -->
+		<ingredient count="1" id="4144" maintainIngredient="true" />
+		<!-- Zubei's Leather Gaiters Texture -->
+		<ingredient count="12" id="4067" />
+		<!-- Adena -->
+		<ingredient count="750000" id="57" />
+		<!-- Zubei's Leather Gaiters -->
+		<production count="1" id="2388" />
+	</item>
+	<item>
+		<!-- Recipe: Tunic of Zubei -->
+		<ingredient count="1" id="4146" maintainIngredient="true" />
+		<!-- Tunic of Zubei Fabric -->
+		<ingredient count="12" id="4069" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Tunic of Zubei -->
+		<production count="1" id="2397" />
+	</item>
+	<item>
+		<!-- Recipe: Stockings of Zubei -->
+		<ingredient count="1" id="4147" maintainIngredient="true" />
+		<!-- Stockings of Zubei Fabric -->
+		<ingredient count="12" id="4070" />
+		<!-- Adena -->
+		<ingredient count="750000" id="57" />
+		<!-- Stockings of Zubei -->
+		<production count="1" id="2402" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Gauntlets -->
+		<ingredient count="1" id="4177" maintainIngredient="true" />
+		<!-- Zubei's Gauntlets Part -->
+		<ingredient count="12" id="4100" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Zubei's Gauntlets -->
+		<production count="1" id="612" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Boots -->
+		<ingredient count="1" id="4174" maintainIngredient="true" />
+		<!-- Zubei's Boots Design -->
+		<ingredient count="12" id="4097" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Zubei's Boots -->
+		<production count="1" id="554" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Helmet -->
+		<ingredient count="1" id="4179" maintainIngredient="true" />
+		<!-- Zubei's Helmet Design -->
+		<ingredient count="12" id="4102" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Zubei's Helmet -->
+		<production count="1" id="503" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Shield -->
+		<ingredient count="1" id="4178" maintainIngredient="true" />
+		<!-- Zubei's Shield Fragment -->
+		<ingredient count="12" id="4101" />
+		<!-- Adena -->
+		<ingredient count="500000" id="57" />
+		<!-- Zubei's Helmet -->
+		<production count="1" id="633" />
+	</item>
+	<!-- Avadon Sets -->
+	<item>
+		<!-- Recipe: Avadon Breastplate -->
+		<ingredient count="1" id="4141" maintainIngredient="true" />
+		<!-- Avadon Breastplate Part -->
+		<ingredient count="12" id="4064" />
+		<!-- Adena -->
+		<ingredient count="1150000" id="57" />
+		<!-- Avadon Breastplate -->
+		<production count="1" id="2376" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Gaiters -->
+		<ingredient count="1" id="4142" maintainIngredient="true" />
+		<!-- Avadon Gaiters Material -->
+		<ingredient count="12" id="4065" />
+		<!-- Adena -->
+		<ingredient count="850000" id="57" />
+		<!-- Avadon Gaiters -->
+		<production count="1" id="2379" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Leather Armor -->
+		<ingredient count="1" id="4145" maintainIngredient="true" />
+		<!-- Avadon Leather Armor Lining -->
+		<ingredient count="12" id="4068" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Avadon Leather Armor -->
+		<production count="1" id="2390" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Robe -->
+		<ingredient count="1" id="4148" maintainIngredient="true" />
+		<!-- Avadon Robe Fabric -->
+		<ingredient count="12" id="4071" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Avadon Robe -->
+		<production count="1" id="2406" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Gloves -->
+		<ingredient count="1" id="4150" maintainIngredient="true" />
+		<!-- Avadon Gloves Part -->
+		<ingredient count="12" id="4073" />
+		<!-- Adena -->
+		<ingredient count="600000" id="57" />
+		<!-- Avadon Gloves -->
+		<production count="1" id="2464" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Boots -->
+		<ingredient count="1" id="4175" maintainIngredient="true" />
+		<!-- Avadon Boots Design -->
+		<ingredient count="12" id="4098" />
+		<!-- Adena -->
+		<ingredient count="600000" id="57" />
+		<!-- Avadon Boots -->
+		<production count="1" id="600" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Circlet -->
+		<ingredient count="1" id="4149" maintainIngredient="true" />
+		<!-- Avadon Circlet Pattern -->
+		<ingredient count="12" id="4072" />
+		<!-- Adena -->
+		<ingredient count="600000" id="57" />
+		<!-- Avadon Circlet -->
+		<production count="1" id="2415" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Shield -->
+		<ingredient count="1" id="4441" maintainIngredient="true" />
+		<!-- Avadon Shield Fragment -->
+		<ingredient count="12" id="4439" />
+		<!-- Adena -->
+		<ingredient count="600000" id="57" />
+		<!-- Avadon Helmet -->
+		<production count="1" id="673" />
+	</item>
+	<!-- Blue Wolf Sets -->
+	<item>
+		<!-- Recipe: Blue Wolf Breastplate -->
+		<ingredient count="1" id="4155" maintainIngredient="true" />
+		<!-- Blue Wolf Breastplate Part -->
+		<ingredient count="13" id="4078" />
+		<!-- Adena -->
+		<ingredient count="1500000" id="57" />
+		<!-- Blue Wolf Breastplate -->
+		<production count="1" id="358" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Gaiters -->
+		<ingredient count="1" id="4157" maintainIngredient="true" />
+		<!-- Blue Wolf Gaiters Material -->
+		<ingredient count="13" id="4080" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Gaiters -->
+		<production count="1" id="2380" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Leather Armor -->
+		<ingredient count="1" id="4159" maintainIngredient="true" />
+		<!-- Blue Wolf Leather Armor Textures -->
+		<ingredient count="12" id="4082" />
+		<!-- Adena -->
+		<ingredient count="2500000" id="57" />
+		<!-- Blue Wolf Leather Armor -->
+		<production count="1" id="2391" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Tunic -->
+		<ingredient count="1" id="4161" maintainIngredient="true" />
+		<!-- Blue Wolf Tunic Fabric -->
+		<ingredient count="13" id="4084" />
+		<!-- Adena -->
+		<ingredient count="1500000" id="57" />
+		<!-- Blue Wolf Tunic -->
+		<production count="1" id="2398" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Stockings -->
+		<ingredient count="1" id="4163" maintainIngredient="true" />
+		<!-- Blue Wolf Stockings Fabric -->
+		<ingredient count="13" id="4086" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Blue Wolf Stockings -->
+		<production count="1" id="2403" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Gloves -->
+		<ingredient count="1" id="4173" maintainIngredient="true" />
+		<!-- Blue Wolf Gloves Fabric -->
+		<ingredient count="13" id="4096" />
+		<!-- Adena -->
+		<ingredient count="700000" id="57" />
+		<!-- Blue Wolf Gloves -->
+		<production count="1" id="2487" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Boots -->
+		<ingredient count="1" id="4167" maintainIngredient="true" />
+		<!-- Blue Wolf Boots Design -->
+		<ingredient count="13" id="4090" />
+		<!-- Adena -->
+		<ingredient count="700000" id="57" />
+		<!-- Blue Wolf Boots -->
+		<production count="1" id="2439" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Helmet -->
+		<ingredient count="1" id="4165" maintainIngredient="true" />
+		<!-- Blue Wolf Helmet Design -->
+		<ingredient count="13" id="4088" />
+		<!-- Adena -->
+		<ingredient count="700000" id="57" />
+		<!-- Blue Wolf Circlet -->
+		<production count="1" id="2416" />
+	</item>
+	<!-- Doom Sets -->
+	<item>
+		<!-- Recipe: Doom Plate Armor -->
+		<ingredient count="1" id="4158" maintainIngredient="true" />
+		<!-- Doom Plate Armor Temper -->
+		<ingredient count="13" id="4081" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Doom Plate Armor -->
+		<production count="1" id="2381" />
+	</item>
+	<item>
+		<!-- Recipe: Leather Armor Of Doom -->
+		<ingredient count="1" id="4160" maintainIngredient="true" />
+		<!-- Leather Armor Of Doom Design -->
+		<ingredient count="12" id="4083" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Leather Armor Of Doom -->
+		<production count="1" id="2392" />
+	</item>
+	<item>
+		<!-- Recipe: Tunic Of Doom -->
+		<ingredient count="1" id="4162" maintainIngredient="true" />
+		<!-- Tunic Of Doom Pattern -->
+		<ingredient count="13" id="4085" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Tunic Of Doom -->
+		<production count="1" id="2399" />
+	</item>
+	<item>
+		<!-- Recipe: Stockings Of Doom -->
+		<ingredient count="1" id="4164" maintainIngredient="true" />
+		<!-- Stockings Of Doom Pattern -->
+		<ingredient count="13" id="4087" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Stockings Of Doom -->
+		<production count="1" id="2404" />
+	</item>
+	<item>
+		<!-- Recipe: Doom Gloves Gloves -->
+		<ingredient count="1" id="4168" maintainIngredient="true" />
+		<!-- Doom Gloves Part -->
+		<ingredient count="13" id="4091" />
+		<!-- Adena -->
+		<ingredient count="800000" id="57" />
+		<!-- Doom Gloves -->
+		<production count="1" id="2475" />
+	</item>
+	<item>
+		<!-- Recipe: Boots Of Doom -->
+		<ingredient count="1" id="4176" maintainIngredient="true" />
+		<!-- Boots Of Doom Part -->
+		<ingredient count="13" id="4099" />
+		<!-- Adena -->
+		<ingredient count="800000" id="57" />
+		<!-- Boots Of Doom -->
+		<production count="1" id="601" />
+	</item>
+	<item>
+		<!-- Recipe: Doom Helmet -->
+		<ingredient count="1" id="4166" maintainIngredient="true" />
+		<!-- Doom Helmet Pattern -->
+		<ingredient count="13" id="4089" />
+		<!-- Adena -->
+		<ingredient count="800000" id="57" />
+		<!-- Doom Helmet -->
+		<production count="1" id="2417" />
+	</item>
+	<item>
+		<!-- Recipe: Doom Shield -->
+		<ingredient count="1" id="4154" maintainIngredient="true" />
+		<!-- Doom Shield Fragment -->
+		<ingredient count="13" id="4077" />
+		<!-- Adena -->
+		<ingredient count="800000" id="57" />
+		<!-- Doom Shield -->
+		<production count="1" id="110" />
+	</item>
+	<!--
+
+		*** A-Grade Armors ***
+	
+	-->
+	<item>
+		<!-- Recipe: Majestic Plate Armor -->
+		<ingredient count="1" id="5422" maintainIngredient="true" />
+		<!-- Majestic Plate Armor Pattern -->
+		<ingredient count="14" id="5523" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Majestic Plate Armor -->
+		<production count="1" id="2383" />
+	</item>
+	<item>
+		<!-- Recipe: Majestic Leather Armor -->
+		<ingredient count="1" id="5338" maintainIngredient="true" />
+		<!-- Majestic Leather Armor Pattern -->
+		<ingredient count="14" id="5481" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Majestic Leather Armor -->
+		<production count="1" id="2395" />
+	</item>
+	<item>
+		<!-- Recipe: Majestic Robe -->
+		<ingredient count="1" id="5352" maintainIngredient="true" />
+		<!-- Majestic Robe Pattern -->
+		<ingredient count="14" id="5488" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Majestic Robe -->
+		<production count="1" id="2409" />
+	</item>
+	<item>
+		<!-- Recipe: Majestic Gauntlets -->
+		<ingredient count="1" id="5406" maintainIngredient="true" />
+		<!-- Majestic Gauntlets Part -->
+		<ingredient count="14" id="5515" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Majestic Gauntlets -->
+		<production count="1" id="5318" />
+	</item>
+	<item>
+		<!-- Recipe: Majestic Boots -->
+		<ingredient count="1" id="5382" maintainIngredient="true" />
+		<!-- Majestic Boots Part -->
+		<ingredient count="14" id="5503" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Majestic Boots -->
+		<production count="1" id="5319" />
+	</item>
+	<item>
+		<!-- Recipe: Majestic Circlet -->
+		<ingredient count="1" id="5432" maintainIngredient="true" />
+		<!-- Majestic Circlet Pattern -->
+		<ingredient count="14" id="5528" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Majestic Circlet -->
+		<production count="1" id="2419" />
+	</item>
+	<item>
+		<!-- Recipe: Armor of Nightmare -->
+		<ingredient count="1" id="5420" maintainIngredient="true" />
+		<!-- Armor of Nightmare Pattern -->
+		<ingredient count="14" id="5522" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Armor of Nightmare -->
+		<production count="1" id="374" />
+	</item>
+	<item>
+		<!-- Recipe: Nightmarish Leather Armor -->
+		<ingredient count="1" id="5336" maintainIngredient="true" />
+		<!-- Nightmarish Leather Armor Pattern -->
+		<ingredient count="14" id="5480" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Nightmarish Leather Armor -->
+		<production count="1" id="2394" />
+	</item>
+	<item>
+		<!-- Recipe: Nightmare Robe -->
+		<ingredient count="1" id="5350" maintainIngredient="true" />
+		<!-- Nightmare Robe Pattern -->
+		<ingredient count="14" id="5487" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Nightmare Robe -->
+		<production count="1" id="2408" />
+	</item>
+	<item>
+		<!-- Recipe: Gauntlets Of Nightmare -->
+		<ingredient count="1" id="5404" maintainIngredient="true" />
+		<!-- Gauntlets Of Nightmare Part -->
+		<ingredient count="14" id="5514" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Gauntlets Of Nightmare -->
+		<production count="1" id="5313" />
+	</item>
+	<item>
+		<!-- Recipe: Boots Of Nightmare -->
+		<ingredient count="1" id="5380" maintainIngredient="true" />
+		<!-- Boots Of Nightmare Part -->
+		<ingredient count="14" id="5502" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Boots Of Nightmare -->
+		<production count="1" id="5314" />
+	</item>
+	<item>
+		<!-- Recipe: Helm Of Nightmare -->
+		<ingredient count="1" id="5430" maintainIngredient="true" />
+		<!-- Helm Of Nightmare Pattern -->
+		<ingredient count="14" id="5527" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Helm Of Nightmare -->
+		<production count="1" id="2418" />
+	</item>
+	<item>
+		<!-- Recipe: Shield Of Nightmare -->
+		<ingredient count="1" id="5366" maintainIngredient="true" />
+		<!-- Shield Of Nightmare Pattern -->
+		<ingredient count="14" id="5495" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Shield Of Nightmare -->
+		<production count="1" id="2498" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Plate Armor -->
+		<ingredient count="1" id="5418" maintainIngredient="true" />
+		<!-- Tallum Plate Armor Pattern -->
+		<ingredient count="13" id="5521" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Tallum Plate Armor -->
+		<production count="1" id="2382" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Leather Armor -->
+		<ingredient count="1" id="5334" maintainIngredient="true" />
+		<!-- Tallum Leather Armor Pattern -->
+		<ingredient count="13" id="5479" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Tallum Leather Armor -->
+		<production count="1" id="2393" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Tunic -->
+		<ingredient count="1" id="5346" maintainIngredient="true" />
+		<!-- Tallum Tunic Pattern -->
+		<ingredient count="13" id="5485" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Tallum Tunic -->
+		<production count="1" id="2400" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Stockings -->
+		<ingredient count="1" id="5354" maintainIngredient="true" />
+		<!-- Tallum Stockings Pattern -->
+		<ingredient count="13" id="5489" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Tallum Stockings -->
+		<production count="1" id="2405" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Gloves -->
+		<ingredient count="1" id="5394" maintainIngredient="true" />
+		<!-- Tallum Gloves Part -->
+		<ingredient count="13" id="5509" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Tallum Gloves -->
+		<production count="1" id="5295" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Boots -->
+		<ingredient count="1" id="5370" maintainIngredient="true" />
+		<!-- Tallum Boots Part -->
+		<ingredient count="13" id="5497" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Tallum Boots -->
+		<production count="1" id="5296" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Helmet -->
+		<ingredient count="1" id="5428" maintainIngredient="true" />
+		<!-- Tallum Helmet Pattern -->
+		<ingredient count="13" id="5526" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Tallum Helmet -->
+		<production count="1" id="547" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Breastplate -->
+		<ingredient count="1" id="5416" maintainIngredient="true" />
+		<!-- Dark Crystal Breastplate Pattern -->
+		<ingredient count="13" id="5520" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Dark Crystal Breastplate -->
+		<production count="1" id="365" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Gaiters -->
+		<ingredient count="1" id="5424" maintainIngredient="true" />
+		<!-- Dark Crystal Gaiters Pattern -->
+		<ingredient count="13" id="5524" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Dark Crystal Gaiters -->
+		<production count="1" id="388" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Leather Armor -->
+		<ingredient count="1" id="5332" maintainIngredient="true" />
+		<!-- Dark Crystal Leather Armor Pattern -->
+		<ingredient count="13" id="5478" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Dark Crystal Leather Armor -->
+		<production count="1" id="2385" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Leggings -->
+		<ingredient count="1" id="5340" maintainIngredient="true" />
+		<!-- Dark Crystal Leggings Pattern -->
+		<ingredient count="13" id="5482" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Dark Crystal Leggings -->
+		<production count="1" id="2389" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Robe -->
+		<ingredient count="1" id="5348" maintainIngredient="true" />
+		<!-- Dark Crystal Robe Pattern -->
+		<ingredient count="13" id="5486" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Dark Crystal Robe -->
+		<production count="1" id="2407" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Gloves -->
+		<ingredient count="1" id="5392" maintainIngredient="true" />
+		<!-- Dark Crystal Gloves Part -->
+		<ingredient count="13" id="5508" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Dark Crystal Gloves -->
+		<production count="1" id="5290" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Boots -->
+		<ingredient count="1" id="5368" maintainIngredient="true" />
+		<!-- Dark Crystal Boots Part -->
+		<ingredient count="13" id="5496" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Dark Crystal Boots -->
+		<production count="1" id="5291" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Helmet -->
+		<ingredient count="1" id="5426" maintainIngredient="true" />
+		<!-- Dark Crystal Helmet Pattern -->
+		<ingredient count="13" id="5525" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Dark Crystal Helmet -->
+		<production count="1" id="512" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Crystal Shield -->
+		<ingredient count="1" id="5364" maintainIngredient="true" />
+		<!-- Dark Crystal Shield Pattern -->
+		<ingredient count="13" id="5494" />
+		<!-- Adena -->
+		<ingredient count="2000000" id="57" />
+		<!-- Dark Crystal Shield -->
+		<production count="1" id="641" />
+	</item>
+</list>

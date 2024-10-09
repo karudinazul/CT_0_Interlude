@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list applyTaxes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>30283</npc> <!-- Altran -->
+		<npc>30298</npc> <!-- Pinter -->
+		<npc>30300</npc> <!-- Pushkin -->
+		<npc>30307</npc> <!-- Karrod -->
+		<npc>30317</npc> <!-- Kluto -->
+		<npc>30363</npc> <!-- Aios -->
+		<npc>30458</npc> <!-- Poitan -->
+		<npc>30471</npc> <!-- Rupio -->
+		<npc>30526</npc> <!-- Brunon -->
+		<npc>30527</npc> <!-- Silvera -->
+		<npc>30564</npc> <!-- Sumari -->
+		<npc>30678</npc> <!-- Helton -->
+		<npc>30688</npc> <!-- Duning -->
+		<npc>30846</npc> <!-- Wilbert -->
+		<npc>30898</npc> <!-- Morning -->
+		<npc>31271</npc> <!-- Hilda -->
+		<npc>31316</npc> <!-- Vincenz -->
+		<npc>31583</npc> <!-- Feynn -->
+		<npc>31960</npc> <!-- Buryun -->
+		<npc>31990</npc> <!-- Siger -->
+	</npcs>
+	<!--
+
+		*** D-Grade Weapons ***
+	
+	-->
+	<item>
+		<!-- Recipe: Elven Long Sword -->
+		<ingredient count="1" id="3020" maintainIngredient="true" />
+		<!-- Elven Long Sword Blade -->
+		<ingredient count="8" id="2967" />
+		<!-- Adena -->
+		<ingredient count="350000" id="57" />
+		<!-- Elven Long Sword -->
+		<production count="1" id="2499" />
+	</item>
+	<item>
+		<!-- Recipe: Bonebreaker -->
+		<ingredient count="1" id="2286" maintainIngredient="true" />
+		<!-- Bonebreaker Head -->
+		<ingredient count="8" id="2048" />
+		<!-- Adena -->
+		<ingredient count="350000" id="57" />
+		<!-- Bonebreaker -->
+		<production count="1" id="159" />
+	</item>
+	<item>
+		<!-- Recipe: Mithril Dagger -->
+		<ingredient count="1" id="2290" maintainIngredient="true" />
+		<!-- Mithril Dagger Blade -->
+		<ingredient count="8" id="2052" />
+		<!-- Adena -->
+		<ingredient count="350000" id="57" />
+		<!-- Mithril Dagger -->
+		<production count="1" id="225" />
+	</item>
+	<item>
+		<!-- Recipe: Claymore -->
+		<ingredient count="1" id="2285" maintainIngredient="true" />
+		<!-- Claymore Blade -->
+		<ingredient count="8" id="2047" />
+		<!-- Adena -->
+		<ingredient count="350000" id="57" />
+		<!-- Claymore -->
+		<production count="1" id="70" />
+	</item>
+	<item>
+		<!-- Recipe: Glaive -->
+		<ingredient count="1" id="2293" maintainIngredient="true" />
+		<!-- Glaive Edge -->
+		<ingredient count="8" id="2055" />
+		<!-- Adena -->
+		<ingredient count="350000" id="57" />
+		<!-- Glaive -->
+		<production count="1" id="297" />
+	</item>
+	<item>
+		<!-- Recipe: Scallop Jamadhr -->
+		<ingredient count="1" id="2291" maintainIngredient="true" />
+		<!-- Scallop Jamadhr Edge -->
+		<ingredient count="8" id="2053" />
+		<!-- Adena -->
+		<ingredient count="350000" id="57" />
+		<!-- Scallop Jamadhr -->
+		<production count="1" id="262" />
+	</item>
+	<item>
+		<!-- Recipe: Light Crossbow -->
+		<ingredient count="1" id="2292" maintainIngredient="true" />
+		<!-- Light Crossbow Shaft -->
+		<ingredient count="8" id="2054" />
+		<!-- Adena -->
+		<ingredient count="350000" id="57" />
+		<!-- Light Crossbow -->
+		<production count="1" id="280" />
+	</item>
+	<item>
+		<!-- Recipe: Staff of Life -->
+		<ingredient count="1" id="2289" maintainIngredient="true" />
+		<!-- Staff of Life Shaft -->
+		<ingredient count="8" id="2051" />
+		<!-- Adena -->
+		<ingredient count="350000" id="57" />
+		<!-- Staff of Life -->
+		<production count="1" id="189" />
+	</item>
+	<!--
+
+		*** C-Grade Weapons ***
+	
+	-->
+	<item>
+		<!-- Recipe: Homunkulus Sword -->
+		<ingredient count="1" id="2330" maintainIngredient="true" />
+		<!-- Homunkulus Sword Blade -->
+		<ingredient count="10" id="2092" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Homunkulus Sword -->
+		<production count="1" id="84" />
+	</item>
+	<item>
+		<!-- Recipe: Samurai Longsword -->
+		<ingredient count="1" id="2353" maintainIngredient="true" />
+		<!-- Samurai Longsword Blade -->
+		<ingredient count="11" id="2115" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Samurai Longsword -->
+		<production count="1" id="135" />
+	</item>
+	<item>
+		<!-- Recipe: Dwarven Hammer -->
+		<ingredient count="1" id="8318" maintainIngredient="true" />
+		<!-- Dwarven Hammer Piece -->
+		<ingredient count="11" id="8344" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Dwarven Hammer -->
+		<production count="1" id="7897" />
+	</item>
+	<item>
+		<!-- Recipe: Berserker Blade -->
+		<ingredient count="1" id="5436" maintainIngredient="true" />
+		<!-- Berserker Blade Edge -->
+		<ingredient count="11" id="5530" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Berserker Blade -->
+		<production count="1" id="5286" />
+	</item>
+	<item>
+		<!-- Recipe: Yaksa Mace -->
+		<ingredient count="1" id="3022" maintainIngredient="true" />
+		<!-- Yaksa Mace Head -->
+		<ingredient count="11" id="2969" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Yaksa Mace -->
+		<production count="1" id="2503" />
+	</item>
+	<item>
+		<!-- Recipe: Eminence Bow -->
+		<ingredient count="1" id="2359" maintainIngredient="true" />
+		<!-- Eminence Bow Shaft -->
+		<ingredient count="11" id="2121" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Eminence Bow -->
+		<production count="1" id="286" />
+	</item>
+	<item>
+		<!-- Recipe: Crystal Dagger -->
+		<ingredient count="1" id="2357" maintainIngredient="true" />
+		<!-- Crystal Dagger Blade -->
+		<ingredient count="11" id="2119" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Crystal Dagger -->
+		<production count="1" id="228" />
+	</item>
+	<item>
+		<!-- Recipe: Great Pata -->
+		<ingredient count="1" id="2358" maintainIngredient="true" />
+		<!-- Great Pata Blade -->
+		<ingredient count="11" id="2120" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Great Pata -->
+		<production count="1" id="266" />
+	</item>
+	<item>
+		<!-- Recipe: Orcish Poleaxe -->
+		<ingredient count="1" id="2360" maintainIngredient="true" />
+		<!-- Orcish Poleaxe Blade -->
+		<ingredient count="11" id="2122" />
+		<!-- Adena -->
+		<ingredient count="1000000" id="57" />
+		<!-- Orcish Poleaxe -->
+		<production count="1" id="299" />
+	</item>
+	<!--
+
+		*** B-Grade Weapons ***
+	
+	-->
+	<item>
+		<!-- Recipe: Dark Elven Long Bow -->
+		<ingredient count="1" id="4971" maintainIngredient="true" />
+		<!-- Dark Elven Long Bow Shaft -->
+		<ingredient count="12" id="4112" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Dark Elven Long Bow -->
+		<production count="1" id="284" />
+	</item>
+	<item>
+		<!-- Recipe: Hell Knife -->
+		<ingredient count="1" id="4969" maintainIngredient="true" />
+		<!-- Hell Knife Edge -->
+		<ingredient count="12" id="4110" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Hell Knife -->
+		<production count="1" id="243" />
+	</item>
+	<item>
+		<!-- Recipe: Kris -->
+		<ingredient count="1" id="4195" maintainIngredient="true" />
+		<!-- Kris Edge -->
+		<ingredient count="12" id="4109" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Kris -->
+		<production count="1" id="229" />
+	</item>
+	<item>
+		<!-- Recipe: Keshanberk -->
+		<ingredient count="1" id="4966" maintainIngredient="true" />
+		<!-- Keshanberk Blade -->
+		<ingredient count="12" id="4107" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Keshanberk -->
+		<production count="1" id="142" />
+	</item>
+	<item>
+		<!-- Recipe: Arthro Nail -->
+		<ingredient count="1" id="4970" maintainIngredient="true" />
+		<!-- Arthro Nail Blade -->
+		<ingredient count="12" id="4111" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Arthro Nail -->
+		<production count="1" id="267" />
+	</item>
+	<item>
+		<!-- Recipe: Great Axe -->
+		<ingredient count="1" id="4972" maintainIngredient="true" />
+		<!-- Great Axe Head -->
+		<ingredient count="12" id="4113" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Great Axe -->
+		<production count="1" id="300" />
+	</item>
+	<item>
+		<!-- Recipe: Great Sword -->
+		<ingredient count="1" id="4963" maintainIngredient="true" />
+		<!-- Great Sword Blade -->
+		<ingredient count="12" id="4104" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Great Sword -->
+		<production count="1" id="78" />
+	</item>
+	<item>
+		<!-- Recipe: Staff Of Evil Spirits -->
+		<ingredient count="1" id="5004" maintainIngredient="true" />
+		<!-- Staff Of Evil Spirits Head -->
+		<ingredient count="13" id="4118" />
+		<!-- Adena -->
+		<ingredient count="3000000" id="57" />
+		<!-- Staff Of Evil Spirits -->
+		<production count="1" id="210" />
+	</item>
+	<item>
+		<!-- Recipe: Art Of Battle Axe -->
+		<ingredient count="1" id="4195" maintainIngredient="true" />
+		<!-- Art Of Battle Axe Blade -->
+		<ingredient count="13" id="4117" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Art Of Battle Axe -->
+		<production count="1" id="175" />
+	</item>
+	<item>
+		<!-- Recipe: Deadman's Glory -->
+		<ingredient count="1" id="4194" maintainIngredient="true" />
+		<!-- Deadman's Glory Stone -->
+		<ingredient count="13" id="4116" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Deadman's Glory -->
+		<production count="1" id="171" />
+	</item>
+	<item>
+		<!-- Recipe: Sword Of Damascus -->
+		<ingredient count="1" id="4192" maintainIngredient="true" />
+		<!-- Sword Of Damascus Blade -->
+		<ingredient count="13" id="4114" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Sword Of Damascus -->
+		<production count="1" id="79" />
+	</item>
+	<item>
+		<!-- Recipe: Wizard's Tear -->
+		<ingredient count="1" id="8305" maintainIngredient="true" />
+		<!-- Wizard's Tear Blade -->
+		<ingredient count="13" id="8336" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Wizard's Tear -->
+		<production count="1" id="7889" />
+	</item>
+	<item>
+		<!-- Recipe: Star Buster -->
+		<ingredient count="1" id="8323" maintainIngredient="true" />
+		<!-- Star Buster Head -->
+		<ingredient count="13" id="8348" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Star Buster -->
+		<production count="1" id="7901" />
+	</item>
+	<item>
+		<!-- Recipe: Lance -->
+		<ingredient count="1" id="4193" maintainIngredient="true" />
+		<!-- Lance Blade -->
+		<ingredient count="13" id="4115" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Lance -->
+		<production count="1" id="97" />
+	</item>
+	<item>
+		<!-- Recipe: Guardian Sword -->
+		<ingredient count="1" id="8297" maintainIngredient="true" />
+		<!-- Guardian Sword Blade -->
+		<ingredient count="13" id="8330" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Guardian Sword -->
+		<production count="1" id="7883" />
+	</item>
+	<item>
+		<!-- Recipe: Demon Dagger -->
+		<ingredient count="1" id="4197" maintainIngredient="true" />
+		<!-- Demon Dagger Edge -->
+		<ingredient count="13" id="4119" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Demon Dagger -->
+		<production count="1" id="234" />
+	</item>
+	<item>
+		<!-- Recipe: Bow of Peril -->
+		<ingredient count="1" id="4199" maintainIngredient="true" />
+		<!-- Bow of Peril Shaft -->
+		<ingredient count="13" id="4121" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Bow of Peril -->
+		<production count="1" id="287" />
+	</item>
+	<item>
+		<!-- Recipe: Bellion Cestus -->
+		<ingredient count="1" id="4198" maintainIngredient="true" />
+		<!-- Bellion Cestus Edge -->
+		<ingredient count="13" id="4120" />
+		<!-- Adena -->
+		<ingredient count="5000000" id="57" />
+		<!-- Bellion Cestus -->
+		<production count="1" id="268" />
+	</item>
+	<!--
+
+		*** A-Grade Weapons ***
+	
+	-->
+	<item>
+		<!-- Recipe: Meteor Shower -->
+		<ingredient count="1" id="5438" maintainIngredient="true" />
+		<!-- Meteor Shower Head -->
+		<ingredient count="13" id="5532" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Meteor Shower -->
+		<production count="1" id="2504" />
+	</item>
+	<item>
+		<!-- Recipe: Infernal Master -->
+		<ingredient count="1" id="8300" maintainIngredient="true" />
+		<!-- Infernal Master Blade -->
+		<ingredient count="13" id="8331" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Infernal Master -->
+		<production count="1" id="7884" />
+	</item>
+	<item>
+		<!-- Recipe: Destroyer Hammer -->
+		<ingredient count="1" id="8487" maintainIngredient="true" />
+		<!-- Destroyer Hammer Piece -->
+		<ingredient count="13" id="8346" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Destroyer Hammer -->
+		<production count="1" id="7899" />
+	</item>
+	<item>
+		<!-- Recipe: Carnage Bow -->
+		<ingredient count="1" id="5444" maintainIngredient="true" />
+		<!-- Carnage Bow Shaft -->
+		<ingredient count="13" id="5535" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Carnage Bow -->
+		<production count="1" id="288" />
+	</item>
+	<item>
+		<!-- Recipe: Bloody Orchid -->
+		<ingredient count="1" id="5446" maintainIngredient="true" />
+		<!-- Bloody Orchid Head -->
+		<ingredient count="13" id="5536" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Bloody Orchid -->
+		<production count="1" id="235" />
+	</item>
+	<item>
+		<!-- Recipe: Blood Tornado -->
+		<ingredient count="1" id="5452" maintainIngredient="true" />
+		<!-- Blood Tornado Edge -->
+		<ingredient count="13" id="5539" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Blood Tornado -->
+		<production count="1" id="269" />
+	</item>
+	<item>
+		<!-- Recipe: Halberd -->
+		<ingredient count="1" id="5458" maintainIngredient="true" />
+		<!-- Halberd Edge -->
+		<ingredient count="13" id="5542" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Halberd -->
+		<production count="1" id="98" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Blade -->
+		<ingredient count="1" id="5470" maintainIngredient="true" />
+		<!-- Tallum Blade Edge -->
+		<ingredient count="13" id="5548" />
+		<!-- Adena -->
+		<ingredient count="10000000" id="57" />
+		<!-- Tallum Blade -->
+		<production count="1" id="80" />
+	</item>
+	<item>
+		<!-- Recipe: Branch Of The Mother Tree -->
+		<ingredient count="1" id="5462" maintainIngredient="true" />
+		<!-- Branch Of The Mother Tree Head -->
+		<ingredient count="14" id="5544" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Branch Of The Mother Tree -->
+		<production count="1" id="213" />
+	</item>
+	<item>
+		<!-- Recipe: Doom Crusher -->
+		<ingredient count="1" id="8326" maintainIngredient="true" />
+		<!-- Doom Crusher Head -->
+		<ingredient count="14" id="8349" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Doom Crusher -->
+		<production count="1" id="7902" />
+	</item>
+	<item>
+		<!-- Recipe: Dragon Slayer -->
+		<ingredient count="1" id="5434" maintainIngredient="true" />
+		<!-- Dragon Slayer Edge -->
+		<ingredient count="14" id="5529" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Dragon Slayer -->
+		<production count="1" id="81" />
+	</item>
+	<item>
+		<!-- Recipe: Sword Of Miracles -->
+		<ingredient count="1" id="5466" maintainIngredient="true" />
+		<!-- Sword Of Miracles Edge -->
+		<ingredient count="14" id="5546" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Sword Of Miracles -->
+		<production count="1" id="151" />
+	</item>
+	<item>
+		<!-- Recipe: Soul Bow -->
+		<ingredient count="1" id="5442" maintainIngredient="true" />
+		<!-- Soul Bow Shaft -->
+		<ingredient count="14" id="5534" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Soul Bow -->
+		<production count="1" id="289" />
+	</item>
+	<item>
+		<!-- Recipe: Soul Separator -->
+		<ingredient count="1" id="5448" maintainIngredient="true" />
+		<!-- Soul Separator Head -->
+		<ingredient count="14" id="5537" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Soul Separator -->
+		<production count="1" id="236" />
+	</item>
+	<item>
+		<!-- Recipe: Dragon Grinder -->
+		<ingredient count="1" id="5450" maintainIngredient="true" />
+		<!-- Dragon Grinder Edge -->
+		<ingredient count="14" id="5538" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Dragon Grinder -->
+		<production count="1" id="270" />
+	</item>
+	<item>
+		<!-- Recipe: Tallum Glaive -->
+		<ingredient count="1" id="5456" maintainIngredient="true" />
+		<!-- Tallum Glaive Edge -->
+		<ingredient count="14" id="5541" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Tallum Glaive -->
+		<production count="1" id="305" />
+	</item>
+	<item>
+		<!-- Recipe: Dark Legion's Edge -->
+		<ingredient count="1" id="5464" maintainIngredient="true" />
+		<!-- Dark Legion's Edge Blade -->
+		<ingredient count="14" id="5545" />
+		<!-- Adena -->
+		<ingredient count="20000000" id="57" />
+		<!-- Dark Legion's Edge -->
+		<production count="1" id="2500" />
+	</item>
+</list>

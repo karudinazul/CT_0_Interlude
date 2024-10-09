@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list applyTaxes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>30283</npc> <!-- Altran -->
+		<npc>30298</npc> <!-- Pinter -->
+		<npc>30300</npc> <!-- Pushkin -->
+		<npc>30307</npc> <!-- Karrod -->
+		<npc>30317</npc> <!-- Kluto -->
+		<npc>30363</npc> <!-- Aios -->
+		<npc>30458</npc> <!-- Poitan -->
+		<npc>30471</npc> <!-- Rupio -->
+		<npc>30526</npc> <!-- Brunon -->
+		<npc>30527</npc> <!-- Silvera -->
+		<npc>30564</npc> <!-- Sumari -->
+		<npc>30678</npc> <!-- Helton -->
+		<npc>30688</npc> <!-- Duning -->
+		<npc>30846</npc> <!-- Wilbert -->
+		<npc>30898</npc> <!-- Morning -->
+		<npc>31271</npc> <!-- Hilda -->
+		<npc>31316</npc> <!-- Vincenz -->
+		<npc>31583</npc> <!-- Feynn -->
+		<npc>31960</npc> <!-- Buryun -->
+		<npc>31990</npc> <!-- Siger -->
+	</npcs>
+	<!--
+
+		*** C-Grade Armors ***
+	
+	-->
+	<!-- Karmian Set Robe -->
+	<item>
+		<!-- Recipe: Karmian Tunic -->
+		<ingredient count="1" id="2207" maintainIngredient="true" />
+		<!-- Karmian Tunic Pattern -->
+		<ingredient count="8" id="1962" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="12" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="120" id="1458" />
+		<!-- Karmian Tunic -->
+		<production count="1" id="439" />
+	</item>
+	<item>
+		<!-- Recipe: Karmian Stockings -->
+		<ingredient count="1" id="2199" maintainIngredient="true" />
+		<!-- Karmian Stocking Design -->
+		<ingredient count="8" id="1954" />
+		<!-- Gemstone C -->
+		<ingredient count="6" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="15" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="15" id="1894" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="70" id="1458" />
+		<!-- Karmian Stockings -->
+		<production count="1" id="471" />
+	</item>
+	<item>
+		<!-- Recipe: Karmian Gloves -->
+		<ingredient count="1" id="2997" maintainIngredient="true" />
+		<!-- Karmian Gloves Fabric -->
+		<ingredient count="8" id="2944" />
+		<!-- Gemstone C -->
+		<ingredient count="3" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="1" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="8" id="1894" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="40" id="1458" />
+		<!-- Karmian Gloves -->
+		<production count="1" id="2454" />
+	</item>
+	<item>
+		<!-- Recipe: Karmian Boots -->
+		<ingredient count="1" id="2991" maintainIngredient="true" />
+		<!-- Karmian Boots Fabric -->
+		<ingredient count="8" id="2938" />
+		<!-- Gemstone C -->
+		<ingredient count="3" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="1" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="8" id="1894" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="40" id="1458" />
+		<!-- Karmian Boots -->
+		<production count="1" id="2430" />
+	</item>
+	<!-- Demon Set Robe -->
+	<item>
+		<!-- Recipe: Demon's Tunic -->
+		<ingredient count="1" id="2224" maintainIngredient="true" />
+		<!-- Demon's Tunic Fabric -->
+		<ingredient count="10" id="1979" />
+		<!-- Gemstone C -->
+		<ingredient count="22" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="24" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="48" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="50" id="1459" />
+		<!-- Demon's Tunic -->
+		<production count="1" id="441" />
+	</item>
+	<item>
+		<!-- Recipe: Demon's Stockings -->
+		<ingredient count="1" id="2225" maintainIngredient="true" />
+		<!-- Demon's Stocking Pattern -->
+		<ingredient count="10" id="1980" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="30" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="30" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="30" id="1459" />
+		<!-- Demon's Stockings -->
+		<production count="1" id="472" />
+	</item>
+	<item>
+		<!-- Recipe: Demon's Gloves -->
+		<ingredient count="1" id="3006" maintainIngredient="true" />
+		<!-- Demon's Gloves Fabric -->
+		<ingredient count="10" id="2953" />
+		<!-- Gemstone C -->
+		<ingredient count="6" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="2" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="16" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="16" id="1459" />
+		<!-- Demon's Gloves -->
+		<production count="1" id="2459" />
+	</item>
+	<item>
+		<!-- Recipe: Demon's Boots -->
+		<ingredient count="1" id="3005" maintainIngredient="true" />
+		<!-- Demon's Boots Fabric -->
+		<ingredient count="10" id="2952" />
+		<!-- Gemstone C -->
+		<ingredient count="6" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="2" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="16" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="16" id="1459" />
+		<!-- Demon's Boots -->
+		<production count="1" id="2435" />
+	</item>
+	<!-- Divine Set Robe -->
+	<item>
+		<!-- Recipe: Divine Tunic -->
+		<ingredient count="1" id="2233" maintainIngredient="true" />
+		<!-- Divine Tunic Fabric -->
+		<ingredient count="11" id="1988" />
+		<!-- Gemstone C -->
+		<ingredient count="34" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="35" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="70" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="72" id="1459" />
+		<!-- Divine Tunic -->
+		<production count="1" id="442" />
+	</item>
+	<item>
+		<!-- Recipe: Divine Stockings -->
+		<ingredient count="1" id="2234" maintainIngredient="true" />
+		<!-- Divine Stocking Pattern -->
+		<ingredient count="11" id="1989" />
+		<!-- Gemstone C -->
+		<ingredient count="20" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="42" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="42" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="45" id="1459" />
+		<!-- Divine Stockings -->
+		<production count="1" id="473" />
+	</item>
+	<item>
+		<!-- Recipe: Divine Gloves -->
+		<ingredient count="1" id="3017" maintainIngredient="true" />
+		<!-- Divine Gloves Pattern -->
+		<ingredient count="11" id="2964" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="24" id="1459" />
+		<!-- Divine Gloves -->
+		<production count="1" id="2463" />
+	</item>
+	<item>
+		<!-- Recipe: Divine Boots -->
+		<ingredient count="1" id="3011" maintainIngredient="true" />
+		<!-- Divine Boots Fabric -->
+		<ingredient count="11" id="2958" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="24" id="1459" />
+		<!-- Divine Boots -->
+		<production count="1" id="603" />
+	</item>
+	<!-- Chain Mail Set Heavy -->
+	<item>
+		<!-- Recipe: Chain Mail Shirt -->
+		<ingredient count="1" id="2204" maintainIngredient="true" />
+		<!-- Chain Mail Shirt Material -->
+		<ingredient count="8" id="1959" />
+		<!-- Gemstone C -->
+		<ingredient count="14" id="2131" />
+		<!-- Mithril Alloy -->
+		<ingredient count="1" id="1890" />
+		<!-- Blacksmith's Frame -->
+		<ingredient count="3" id="1892" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="150" id="1458" />
+		<!-- Chain Mail Shirt -->
+		<production count="1" id="354" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Gaiters -->
+		<ingredient count="1" id="2205" maintainIngredient="true" />
+		<!-- Chain Gaiters Part -->
+		<ingredient count="8" id="1960" />
+		<!-- Gemstone C -->
+		<ingredient count="8" id="2131" />
+		<!-- Mithril Alloy -->
+		<ingredient count="1" id="1890" />
+		<!-- Blacksmith's Frame -->
+		<ingredient count="2" id="1892" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="90" id="1458" />
+		<!-- Chain Gaiters -->
+		<production count="1" id="381" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Gloves -->
+		<ingredient count="1" id="2996" maintainIngredient="true" />
+		<!-- Chain Gloves Design -->
+		<ingredient count="8" id="2943" />
+		<!-- Gemstone C -->
+		<ingredient count="3" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="1" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="8" id="1894" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="40" id="1458" />
+		<!-- Chain Gloves -->
+		<production count="1" id="2453" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Boots-->
+		<ingredient count="1" id="2990" maintainIngredient="true" />
+		<!-- Chain Boots Part -->
+		<ingredient count="8" id="2937" />
+		<!-- Gemstone C -->
+		<ingredient count="3" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="1" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="8" id="1894" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="40" id="1458" />
+		<!-- Chain Boots -->
+		<production count="1" id="2429" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Hood -->
+		<ingredient count="1" id="2989" maintainIngredient="true" />
+		<!-- Chain Hood Pattern -->
+		<ingredient count="8" id="2936" />
+		<!-- Gemstone C -->
+		<ingredient count="5" id="2131" />
+		<!-- Crafted Leather -->
+		<ingredient count="2" id="1894" />
+		<!-- Blacksmith's Frame -->
+		<ingredient count="1" id="1892" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="60" id="1458" />
+		<!-- Chain Hood -->
+		<production count="1" id="2413" />
+	</item>
+	<item>
+		<!-- Recipe: Chain Shield -->
+		<ingredient count="1" id="2998" maintainIngredient="true" />
+		<!-- Chain Shield Fragment -->
+		<ingredient count="8" id="2945" />
+		<!-- Gemstone C -->
+		<ingredient count="3" id="2131" />
+		<!-- Crafted Leather -->
+		<ingredient count="1" id="1894" />
+		<!-- Mithril Alloy -->
+		<ingredient count="3" id="1890" />
+		<!-- Synthetic Cokes -->
+		<ingredient count="1" id="1888" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="40" id="1458" />
+		<!-- Chain Shield -->
+		<production count="1" id="2495" />
+	</item>
+	<!-- Composite Set Heavy -->
+	<item>
+		<!-- Recipe: Composite Armor -->
+		<ingredient count="1" id="2222" maintainIngredient="true" />
+		<!-- Composite Armor Temper -->
+		<ingredient count="10" id="1977" />
+		<!-- Gemstone C -->
+		<ingredient count="48" id="2131" />
+		<!-- Varnish of Purity -->
+		<ingredient count="7" id="1887" />
+		<!-- Mithril Alloy -->
+		<ingredient count="21" id="1890" />
+		<!-- Blacksmith's Frame -->
+		<ingredient count="4" id="1892" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="95" id="1459" />
+		<!-- Composite Armor -->
+		<production count="1" id="60" />
+	</item>
+	<item>
+		<!-- Recipe: Composite Boots-->
+		<ingredient count="1" id="3009" maintainIngredient="true" />
+		<!-- Composite Boots Part -->
+		<ingredient count="10" id="2956" />
+		<!-- Gemstone C -->
+		<ingredient count="6" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="2" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="16" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="16" id="1459" />
+		<!-- Composite Boots -->
+		<production count="1" id="64" />
+	</item>
+	<item>
+		<!-- Recipe: Composite Helmet -->
+		<ingredient count="1" id="3010" maintainIngredient="true" />
+		<!-- Composite Helmet Design -->
+		<ingredient count="10" id="2957" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- Crafted Leather -->
+		<ingredient count="14" id="1894" />
+		<!-- Blacksmith's Frame -->
+		<ingredient count="1" id="1892" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="25" id="1459" />
+		<!-- Composite Helmet -->
+		<production count="1" id="517" />
+	</item>
+	<item>
+		<!-- Recipe: Composite Shield -->
+		<ingredient count="1" id="4132" maintainIngredient="true" />
+		<!-- Composite Shield Fragment -->
+		<ingredient count="10" id="4055" />
+		<!-- Gemstone C -->
+		<ingredient count="7" id="2131" />
+		<!-- Crafted Leather -->
+		<ingredient count="2" id="1894" />
+		<!-- Mithril Alloy -->
+		<ingredient count="6" id="1890" />
+		<!-- Synthetic Cokes -->
+		<ingredient count="2" id="1888" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="17" id="1459" />
+		<!-- Composite Shield -->
+		<production count="1" id="107" />
+	</item>
+	<!-- Full Plate Set Heavy -->
+	<item>
+		<!-- Recipe: Full Plate Armor -->
+		<ingredient count="1" id="2231" maintainIngredient="true" />
+		<!-- Full Plate Armor Temper -->
+		<ingredient count="11" id="1986" />
+		<!-- Gemstone C -->
+		<ingredient count="73" id="2131" />
+		<!-- Varnish of Purity -->
+		<ingredient count="12" id="1887" />
+		<!-- Mithril Alloy -->
+		<ingredient count="36" id="1890" />
+		<!-- Blacksmith's Frame -->
+		<ingredient count="4" id="1892" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="140" id="1459" />
+		<!-- Full Plate Armor -->
+		<production count="1" id="356" />
+	</item>
+	<item>
+		<!-- Recipe: Full Plate Gauntlets-->
+		<ingredient count="1" id="3016" maintainIngredient="true" />
+		<!-- Full Plate Gauntlets Part -->
+		<ingredient count="11" id="2963" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="24" id="1459" />
+		<!-- Full Plate Gauntlets -->
+		<production count="1" id="2462" />
+	</item>
+	<item>
+		<!-- Recipe: Full Plate Boots-->
+		<ingredient count="1" id="3014" maintainIngredient="true" />
+		<!--  Full Plate Boots Part -->
+		<ingredient count="11" id="2961" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="24" id="1459" />
+		<!--  Full Plate Boots -->
+		<production count="1" id="2438" />
+	</item>
+	<item>
+		<!-- Recipe: Full Plate Helmet -->
+		<ingredient count="1" id="3012" maintainIngredient="true" />
+		<!--  Full Plate Helmet Design -->
+		<ingredient count="11" id="2959" />
+		<!-- Gemstone C -->
+		<ingredient count="15" id="2131" />
+		<!-- Crafted Leather -->
+		<ingredient count="26" id="1894" />
+		<!-- Blacksmith's Frame -->
+		<ingredient count="1" id="1892" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="36" id="1459" />
+		<!--  Full Plate Helmet -->
+		<production count="1" id="2414" />
+	</item>
+	<item>
+		<!-- Recipe: Full Plate Shield -->
+		<ingredient count="1" id="3019" maintainIngredient="true" />
+		<!--  Full Plate Shield Fragment -->
+		<ingredient count="11" id="2966" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- Crafted Leather -->
+		<ingredient count="3" id="1894" />
+		<!-- Mithril Alloy -->
+		<ingredient count="9" id="1890" />
+		<!-- Synthetic Cokes -->
+		<ingredient count="3" id="1888" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="25" id="1459" />
+		<!--  Full Plate Shield -->
+		<production count="1" id="2497" />
+	</item>
+	<!-- Plated Leather Set Light -->
+	<item>
+		<!-- Recipe: Plate Leather Armor -->
+		<ingredient count="1" id="2211" maintainIngredient="true" />
+		<!-- Plated Leather Fragment -->
+		<ingredient count="9" id="1966" />
+		<!-- Gemstone C -->
+		<ingredient count="12" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="15" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="30" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="30" id="1459" />
+		<!-- Plated Leather -->
+		<production count="1" id="398" />
+	</item>
+	<item>
+		<!-- Recipe: Plated Leather Gaiters -->
+		<ingredient count="1" id="2212" maintainIngredient="true" />
+		<!--  Plated Leather Gaiters Material -->
+		<ingredient count="9" id="1967" />
+		<!-- Gemstone C -->
+		<ingredient count="7" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="18" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="18" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="18" id="1459" />
+		<!-- Plated Leather Gaiters -->
+		<production count="1" id="418" />
+	</item>
+	<item>
+		<!-- Recipe: Plated Leather Gloves -->
+		<ingredient count="1" id="2999" maintainIngredient="true" />
+		<!-- Plate Leather Gloves Design -->
+		<ingredient count="9" id="2946" />
+		<!-- Gemstone C -->
+		<ingredient count="3" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="1" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="8" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="10" id="1459" />
+		<!-- Plated Leather Gloves -->
+		<production count="1" id="2455" />
+	</item>
+	<item>
+		<!-- Recipe: Plated Leather Boots -->
+		<ingredient count="1" id="2992" maintainIngredient="true" />
+		<!-- Plate Leather Boot Lining -->
+		<ingredient count="8" id="2939" />
+		<!-- Gemstone C -->
+		<ingredient count="3" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="1" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="8" id="1894" />
+		<!-- Crystal: D-Grade -->
+		<ingredient count="40" id="1458" />
+		<!-- Plated Leather Boots -->
+		<production count="1" id="2431" />
+	</item>
+	<!-- Theca Leather Set Light -->
+	<item>
+		<!-- Recipe: Theca Leather Armor -->
+		<ingredient count="1" id="2229" maintainIngredient="true" />
+		<!-- Theca Leather Armor Fragment -->
+		<ingredient count="10" id="1984" />
+		<!-- Gemstone C -->
+		<ingredient count="25" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="27" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="54" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="55" id="1459" />
+		<!-- Theca Leather Armor -->
+		<production count="1" id="400" />
+	</item>
+	<item>
+		<!-- Recipe: Theca Leather Gaiters -->
+		<ingredient count="1" id="2230" maintainIngredient="true" />
+		<!--  Theca Leather Gaiters Material -->
+		<ingredient count="10" id="1985" />
+		<!-- Gemstone C -->
+		<ingredient count="15" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="32" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="32" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="35" id="1459" />
+		<!-- Theca Leather Gaiters -->
+		<production count="1" id="420" />
+	</item>
+	<item>
+		<!-- Recipe: Theca Leather Gloves -->
+		<ingredient count="1" id="3008" maintainIngredient="true" />
+		<!-- Theca Leather Gloves Texture -->
+		<ingredient count="10" id="2955" />
+		<!-- Gemstone C -->
+		<ingredient count="7" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="2" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="18" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="20" id="1459" />
+		<!-- Theca Leather Gloves -->
+		<production count="1" id="2460" />
+	</item>
+	<item>
+		<!-- Recipe: Theca Leather Boots -->
+		<ingredient count="1" id="3007" maintainIngredient="true" />
+		<!-- Theca Leather Boot Texture -->
+		<ingredient count="10" id="2954" />
+		<!-- Gemstone C -->
+		<ingredient count="7" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="2" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="18" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="20" id="1459" />
+		<!-- Theca Leather Boots -->
+		<production count="1" id="2436" />
+	</item>
+	<!-- Drake Leather Set Light -->
+	<item>
+		<!-- Recipe: Drake Leather Armor -->
+		<ingredient count="1" id="2232" maintainIngredient="true" />
+		<!-- Drake Leather Armor Texture -->
+		<ingredient count="11" id="1987" />
+		<!-- Gemstone C -->
+		<ingredient count="53" id="2131" />
+		<!-- Metallic Fiber -->
+		<ingredient count="48" id="1895" />
+		<!-- Crafted Leather -->
+		<ingredient count="96" id="1894" />
+		<!-- Compound Braid -->
+		<ingredient count="24" id="1889" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="100" id="1459" />
+		<!--  Drake Leather Armor -->
+		<production count="1" id="401" />
+	</item>
+	<item>
+		<!-- Recipe: Drake Leather Gloves -->
+		<ingredient count="1" id="3015" maintainIngredient="true" />
+		<!-- Drake Leather Gloves Design -->
+		<ingredient count="11" id="2962" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="24" id="1459" />
+		<!-- Drake Leather Gloves -->
+		<production count="1" id="2461" />
+	</item>
+	<item>
+		<!-- Recipe: Drake Leather Boots -->
+		<ingredient count="1" id="3013" maintainIngredient="true" />
+		<!-- Drake Leather Boots Design -->
+		<ingredient count="11" id="2960" />
+		<!-- Gemstone C -->
+		<ingredient count="10" id="2131" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="24" id="1459" />
+		<!-- Drake Leather Boots -->
+		<production count="1" id="2437" />
+	</item>
+	<!--
+
+		*** B-Grade Armors ***
+	
+	-->
+	<!-- Zubei Sets -->
+	<item>
+		<!-- Recipe: Zubei's Breastplate -->
+		<ingredient count="1" id="4133" maintainIngredient="true" />
+		<!-- Zubei's Breastplate Part -->
+		<ingredient count="12" id="4056" />
+		<!-- Gemstone B -->
+		<ingredient count="12" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="3" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="22" id="4043" />
+		<!-- Mithril Alloy -->
+		<ingredient count="33" id="1890" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="129" id="1459" />
+		<!-- Zubei's Breastplate -->
+		<production count="1" id="357" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Gaiters -->
+		<ingredient count="1" id="4134" maintainIngredient="true" />
+		<!-- Zubei's Gaiters Material -->
+		<ingredient count="12" id="4057" />
+		<!-- Gemstone B -->
+		<ingredient count="7" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="2" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="14" id="4043" />
+		<!-- Mithril Alloy -->
+		<ingredient count="21" id="1890" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="72" id="1459" />
+		<!-- Zubei's Gaiters -->
+		<production count="1" id="383" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Leather Shirt -->
+		<ingredient count="1" id="4143" maintainIngredient="true" />
+		<!-- Zubei's Leather Shirt Fabric -->
+		<ingredient count="12" id="4066" />
+		<!-- Gemstone B -->
+		<ingredient count="9" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="2" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="29" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="58" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="29" id="1895" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="118" id="1459" />
+		<!-- Zubei's Leather Shirt -->
+		<production count="1" id="2384" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Leather Gaiters -->
+		<ingredient count="1" id="4144" maintainIngredient="true" />
+		<!-- Zubei's Leather Gaiters Texture -->
+		<ingredient count="12" id="4067" />
+		<!-- Gemstone B -->
+		<ingredient count="5" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="29" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="29" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="29" id="1895" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="70" id="1459" />
+		<!-- Zubei's Leather Gaiters -->
+		<production count="1" id="2388" />
+	</item>
+	<item>
+		<!-- Recipe: Tunic of Zubei -->
+		<ingredient count="1" id="4146" maintainIngredient="true" />
+		<!-- Tunic of Zubei Fabric -->
+		<ingredient count="12" id="4069" />
+		<!-- Gemstone B -->
+		<ingredient count="9" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="2" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="29" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="58" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="29" id="1895" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="118" id="1459" />
+		<!-- Tunic of Zubei -->
+		<production count="1" id="2397" />
+	</item>
+	<item>
+		<!-- Recipe: Stockings of Zubei -->
+		<ingredient count="1" id="4147" maintainIngredient="true" />
+		<!-- Stockings of Zubei Fabric -->
+		<ingredient count="12" id="4070" />
+		<!-- Gemstone B -->
+		<ingredient count="5" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="29" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="29" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="29" id="1895" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="70" id="1459" />
+		<!-- Stockings of Zubei -->
+		<production count="1" id="2402" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Gauntlets -->
+		<ingredient count="1" id="4177" maintainIngredient="true" />
+		<!-- Zubei's Gauntlets Part -->
+		<ingredient count="12" id="4100" />
+		<!-- Gemstone B -->
+		<ingredient count="2" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="3" id="4043" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="33" id="1459" />
+		<!-- Zubei's Gauntlets -->
+		<production count="1" id="612" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Boots -->
+		<ingredient count="1" id="4174" maintainIngredient="true" />
+		<!-- Zubei's Boots Design -->
+		<ingredient count="12" id="4097" />
+		<!-- Gemstone B -->
+		<ingredient count="2" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="3" id="4043" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="33" id="1459" />
+		<!-- Zubei's Boots -->
+		<production count="1" id="554" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Helmet -->
+		<ingredient count="1" id="4179" maintainIngredient="true" />
+		<!-- Zubei's Helmet Design -->
+		<ingredient count="12" id="4102" />
+		<!-- Gemstone B -->
+		<ingredient count="4" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="1" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="4" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="40" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="41" id="1459" />
+		<!-- Zubei's Helmet -->
+		<production count="1" id="503" />
+	</item>
+	<item>
+		<!-- Recipe: Zubei's Shield -->
+		<ingredient count="1" id="4178" maintainIngredient="true" />
+		<!-- Zubei's Shield Fragment -->
+		<ingredient count="12" id="4101" />
+		<!-- Gemstone B -->
+		<ingredient count="3" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="4" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="4" id="1894" />
+		<!-- Synthetic Cokes -->
+		<ingredient count="4" id="1888" />
+		<!-- Mithril Alloy -->
+		<ingredient count="12" id="1890" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="16" id="1459" />
+		<!-- Zubei's Helmet -->
+		<production count="1" id="633" />
+	</item>
+	<!-- Avadon Sets -->
+	<item>
+		<!-- Recipe: Avadon Breastplate -->
+		<ingredient count="1" id="4141" maintainIngredient="true" />
+		<!-- Avadon Breastplate Part -->
+		<ingredient count="12" id="4064" />
+		<!-- Gemstone B -->
+		<ingredient count="12" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="3" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="22" id="4043" />
+		<!-- Mithril Alloy -->
+		<ingredient count="33" id="1890" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="129" id="1459" />
+		<!-- Avadon Breastplate -->
+		<production count="1" id="2376" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Gaiters -->
+		<ingredient count="1" id="4142" maintainIngredient="true" />
+		<!-- Avadon Gaiters Material -->
+		<ingredient count="12" id="4065" />
+		<!-- Gemstone B -->
+		<ingredient count="7" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="2" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="14" id="4043" />
+		<!-- Mithril Alloy -->
+		<ingredient count="21" id="1890" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="72" id="1459" />
+		<!-- Avadon Gaiters -->
+		<production count="1" id="2379" />
+	</item>
+	<item>
+		<!-- Recipe:  Avadon Leather Armor -->
+		<ingredient count="1" id="4145" maintainIngredient="true" />
+		<!--  Avadon Leather Armor Lining -->
+		<ingredient count="12" id="4068" />
+		<!-- Gemstone B -->
+		<ingredient count="14" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="3" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="24" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="96" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="48" id="1895" />
+		<!-- Compound Braid -->
+		<ingredient count="24" id="1889" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="161" id="1459" />
+		<!--  Avadon Leather Armor -->
+		<production count="1" id="2390" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Robe -->
+		<ingredient count="1" id="4148" maintainIngredient="true" />
+		<!-- Avadon Robe Fabric -->
+		<ingredient count="12" id="4071" />
+		<!-- Gemstone B -->
+		<ingredient count="14" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="3" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="24" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="96" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="48" id="1895" />
+		<!-- Compound Braid -->
+		<ingredient count="24" id="1889" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="161" id="1459" />
+		<!-- Avadon Robe -->
+		<production count="1" id="2406" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Gloves -->
+		<ingredient count="1" id="4150" maintainIngredient="true" />
+		<!-- Avadon Gloves Part -->
+		<ingredient count="12" id="4073" />
+		<!-- Gemstone B -->
+		<ingredient count="2" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="3" id="4043" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="33" id="1459" />
+		<!-- Avadon Gloves -->
+		<production count="1" id="2464" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Boots -->
+		<ingredient count="1" id="4175" maintainIngredient="true" />
+		<!-- Avadon Boots Design -->
+		<ingredient count="12" id="4098" />
+		<!-- Gemstone B -->
+		<ingredient count="2" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="3" id="4043" />
+		<!-- High Grade Suede -->
+		<ingredient count="3" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="24" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="33" id="1459" />
+		<!-- Avadon Boots -->
+		<production count="1" id="600" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Circlet -->
+		<ingredient count="1" id="4149" maintainIngredient="true" />
+		<!-- Avadon Circlet Pattern -->
+		<ingredient count="12" id="4072" />
+		<!-- Gemstone B -->
+		<ingredient count="4" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="1" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="4" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="40" id="1894" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="41" id="1459" />
+		<!-- Avadon Circlet -->
+		<production count="1" id="2415" />
+	</item>
+	<item>
+		<!-- Recipe: Avadon Shield -->
+		<ingredient count="1" id="4441" maintainIngredient="true" />
+		<!-- Avadon Shield Fragment -->
+		<ingredient count="12" id="4439" />
+		<!-- Gemstone B -->
+		<ingredient count="3" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="4" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="4" id="1894" />
+		<!-- Synthetic Cokes -->
+		<ingredient count="4" id="1888" />
+		<!-- Mithril Alloy -->
+		<ingredient count="12" id="1890" />
+		<!-- Crystal: C-Grade -->
+		<ingredient count="16" id="1459" />
+		<!-- Avadon Helmet -->
+		<production count="1" id="673" />
+	</item>
+	<!-- Blue Wolf Sets -->
+	<item>
+		<!-- Recipe: Blue Wolf Breastplate -->
+		<ingredient count="1" id="4155" maintainIngredient="true" />
+		<!-- Blue Wolf Breastplate Part -->
+		<ingredient count="13" id="4078" />
+		<!-- Gemstone B -->
+		<ingredient count="20" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="3" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="36" id="4043" />
+		<!-- Mithril Alloy -->
+		<ingredient count="54" id="1890" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="89" id="1460" />
+		<!-- Blue Wolf Breastplate -->
+		<production count="1" id="358" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Gaiters -->
+		<ingredient count="1" id="4157" maintainIngredient="true" />
+		<!-- Blue Wolf Gaiters Material -->
+		<ingredient count="13" id="4080" />
+		<!-- Gemstone B -->
+		<ingredient count="12" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="2" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="24" id="4043" />
+		<!-- Mithril Alloy -->
+		<ingredient count="36" id="1890" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="49" id="1460" />
+		<!-- Blue Wolf Gaiters -->
+		<production count="1" id="2380" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Leather Armor -->
+		<ingredient count="1" id="4159" maintainIngredient="true" />
+		<!-- Blue Wolf Leather Armor Textures -->
+		<ingredient count="12" id="4082" />
+		<!-- Gemstone B -->
+		<ingredient count="22" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="3" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="35" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="140" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="70" id="1895" />
+		<!-- Compound Braid -->
+		<ingredient count="35" id="1889" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="107" id="1460" />
+		<!-- Blue Wolf Leather Armor -->
+		<production count="1" id="2391" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Tunic -->
+		<ingredient count="1" id="4161" maintainIngredient="true" />
+		<!-- Blue Wolf Tunic Fabric -->
+		<ingredient count="13" id="4084" />
+		<!-- Gemstone B -->
+		<ingredient count="14" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="2" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="44" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="88" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="44" id="1895" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="73" id="1460" />
+		<!-- Blue Wolf Tunic -->
+		<production count="1" id="2398" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Stockings -->
+		<ingredient count="1" id="4163" maintainIngredient="true" />
+		<!-- Blue Wolf Stockings Fabric -->
+		<ingredient count="13" id="4086" />
+		<!-- Gemstone B -->
+		<ingredient count="8" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="41" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="41" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="41" id="1895" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="47" id="1460" />
+		<!-- Blue Wolf Stockings -->
+		<production count="1" id="2403" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Gloves -->
+		<ingredient count="1" id="4173" maintainIngredient="true" />
+		<!-- Blue Wolf Gloves Fabric -->
+		<ingredient count="13" id="4096" />
+		<!-- Gemstone B -->
+		<ingredient count="4" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="6" id="4043" />
+		<!-- High Grade Suede -->
+		<ingredient count="6" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="48" id="1894" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="15" id="1460" />
+		<!-- Blue Wolf Gloves -->
+		<production count="1" id="2487" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Boots -->
+		<ingredient count="1" id="4167" maintainIngredient="true" />
+		<!-- Blue Wolf Boots Design -->
+		<ingredient count="13" id="4090" />
+		<!-- Gemstone B -->
+		<ingredient count="4" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="6" id="4043" />
+		<!-- High Grade Suede -->
+		<ingredient count="6" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="48" id="1894" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="15" id="1460" />
+		<!-- Blue Wolf Boots -->
+		<production count="1" id="2439" />
+	</item>
+	<item>
+		<!-- Recipe: Blue Wolf Helmet -->
+		<ingredient count="1" id="4165" maintainIngredient="true" />
+		<!-- Blue Wolf Helmet Design -->
+		<ingredient count="13" id="4088" />
+		<!-- Gemstone B -->
+		<ingredient count="7" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="1" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="5" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="50" id="1894" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="39" id="1460" />
+		<!-- Blue Wolf Circlet -->
+		<production count="1" id="2416" />
+	</item>
+	<!-- Doom Sets -->
+	<item>
+		<!-- Recipe: Doom Plate Armor -->
+		<ingredient count="1" id="4158" maintainIngredient="true" />
+		<!-- Doom Plate Armor Temper -->
+		<ingredient count="13" id="4081" />
+		<!-- Gemstone B -->
+		<ingredient count="31" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="4" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="46" id="4043" />
+		<!-- Mithril Alloy -->
+		<ingredient count="69" id="1890" />
+		<!-- Varnish of Purity -->
+		<ingredient count="23" id="1887" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="136" id="1460" />
+		<!-- Doom Plate Armor -->
+		<production count="1" id="2381" />
+	</item>
+	<item>
+		<!-- Recipe: Leather Armor Of Doom -->
+		<ingredient count="1" id="4160" maintainIngredient="true" />
+		<!-- Leather Armor Of Doom Design -->
+		<ingredient count="12" id="4083" />
+		<!-- Gemstone B -->
+		<ingredient count="22" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="3" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="35" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="140" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="70" id="1895" />
+		<!-- Compound Braid -->
+		<ingredient count="35" id="1889" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="107" id="1460" />
+		<!-- Leather Armor Of Doom -->
+		<production count="1" id="2392" />
+	</item>
+	<item>
+		<!-- Recipe: Tunic Of Doom -->
+		<ingredient count="1" id="4162" maintainIngredient="true" />
+		<!-- Tunic Of Doom Pattern -->
+		<ingredient count="13" id="4085" />
+		<!-- Gemstone B -->
+		<ingredient count="14" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="2" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="44" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="88" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="44" id="1895" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="73" id="1460" />
+		<!-- Tunic Of Doom -->
+		<production count="1" id="2399" />
+	</item>
+	<item>
+		<!-- Recipe: Stockings Of Doom -->
+		<ingredient count="1" id="4164" maintainIngredient="true" />
+		<!-- Stockings Of Doom Pattern -->
+		<ingredient count="13" id="4087" />
+		<!-- Gemstone B -->
+		<ingredient count="8" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="41" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="41" id="1894" />
+		<!-- Metallic Fiber -->
+		<ingredient count="41" id="1895" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="47" id="1460" />
+		<!-- Stockings Of Doom -->
+		<production count="1" id="2404" />
+	</item>
+	<item>
+		<!-- Recipe: Doom Gloves Gloves -->
+		<ingredient count="1" id="4168" maintainIngredient="true" />
+		<!-- Doom Gloves Part -->
+		<ingredient count="13" id="4091" />
+		<!-- Gemstone B -->
+		<ingredient count="4" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="6" id="4043" />
+		<!-- High Grade Suede -->
+		<ingredient count="6" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="48" id="1894" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="15" id="1460" />
+		<!-- Doom Gloves -->
+		<production count="1" id="2475" />
+	</item>
+	<item>
+		<!-- Recipe: Boots Of Doom -->
+		<ingredient count="1" id="4176" maintainIngredient="true" />
+		<!-- Boots Of Doom Part -->
+		<ingredient count="13" id="4099" />
+		<!-- Gemstone B -->
+		<ingredient count="4" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Asofe -->
+		<ingredient count="6" id="4043" />
+		<!-- High Grade Suede -->
+		<ingredient count="6" id="1885" />
+		<!-- Crafted Leather -->
+		<ingredient count="48" id="1894" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="15" id="1460" />
+		<!-- Boots Of Doom -->
+		<production count="1" id="601" />
+	</item>
+	<item>
+		<!-- Recipe: Doom Helmet -->
+		<ingredient count="1" id="4166" maintainIngredient="true" />
+		<!-- Doom Helmet Pattern -->
+		<ingredient count="13" id="4089" />
+		<!-- Gemstone B -->
+		<ingredient count="7" id="2132" />
+		<!-- Maestro Mold -->
+		<ingredient count="1" id="4048" />
+		<!-- Asofe -->
+		<ingredient count="5" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="50" id="1894" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="39" id="1460" />
+		<!-- Doom Helmet -->
+		<production count="1" id="2417" />
+	</item>
+	<item>
+		<!-- Recipe: Doom Shield -->
+		<ingredient count="1" id="4154" maintainIngredient="true" />
+		<!-- Doom Shield Fragment -->
+		<ingredient count="13" id="4077" />
+		<!-- Gemstone B -->
+		<ingredient count="4" id="2132" />
+		<!-- Maestro Anvil Lock -->
+		<ingredient count="1" id="4046" />
+		<!-- Synthetic Cokes -->
+		<ingredient count="3" id="1888" />
+		<!-- Asofe -->
+		<ingredient count="3" id="4043" />
+		<!-- Crafted Leather -->
+		<ingredient count="3" id="1894" />
+		<!-- Mithril Alloy -->
+		<ingredient count="9" id="1890" />
+		<!-- Crystal: B-Grade -->
+		<ingredient count="20" id="1460" />
+		<!-- Doom Shield -->
+		<production count="1" id="110" />
+	</item>
+</list>

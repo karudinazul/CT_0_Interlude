@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="20_23">
+		<npc id="50008" x="17189" y="169848" z="-3502" heading="21462" respawnDelay="60" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="31077" x="12911" y="181605" z="-3565" heading="18442" respawnDelay="60" /> <!-- Newbie Guide -->
+	</spawn>
+</list>
